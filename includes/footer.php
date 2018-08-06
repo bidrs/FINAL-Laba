@@ -163,6 +163,67 @@
                </body>
                <!-- jQuery library -->
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                              <!-- MENU JS-->
+
+               <script>
+                 (function($) {
+                    $.fn.menumaker = function(options) {
+                        var mainnav = $(this),
+                            settings = $.extend({
+                                format: "dropdown",
+                                sticky: false
+                            }, options);
+                        return this.each(function() {
+                            $(this).find(".button").on('click', function() {
+                                $(this).toggleClass('menu-opened');
+                                var mainmenu = $(this).next('ul');
+                                if (mainmenu.hasClass('open')) {
+                                    mainmenu.slideToggle().removeClass('open');
+                                } else {
+                                    mainmenu.slideToggle().addClass('open');
+                                    if (settings.format === "dropdown") {
+                                        mainmenu.find('ul').show();
+                                    }
+                                }
+                            });
+                            mainnav.find('li ul').parent().addClass('has-sub');
+                            multiTg = function() {
+                                mainnav.find(".has-sub").prepend('<span class="submenu-button"></span>');
+                                mainnav.find('.submenu-button').on('click', function() {
+                                    $(this).toggleClass('submenu-opened');
+                                    if ($(this).siblings('ul').hasClass('open')) {
+                                        $(this).siblings('ul').removeClass('open').slideToggle();
+                                    } else {
+                                        $(this).siblings('ul').addClass('open').slideToggle();
+                                    }
+                                });
+                            };
+                            if (settings.format === 'multitoggle') multiTg();
+                            else mainnav.addClass('dropdown');
+                            if (settings.sticky === true) mainnav.css('position', 'fixed');
+                            resizeFix = function() {
+                                var mediasize = 1000;
+                                if ($(window).width() > mediasize) {
+                                    cssmenu.find('ul').show();
+                                }
+                                if ($(window).width() <= mediasize) {
+                                    mainnav.find('ul').hide().removeClass('open');
+                                }
+                            };
+                            resizeFix();
+                            return $(window).on('resize', resizeFix);
+                        });
+                    };
+                })(jQuery);
+
+                (function($) {
+                    $(document).ready(function() {
+                        $(".main-nav").menumaker({
+                            format: "multitoggle"
+                        });
+                    });
+                })(jQuery);
+               </script>
                <!-- Latest compiled JavaScript -->
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -331,20 +392,20 @@
                </script>
                
                
-               <!-- MENU JS-->
-               <script src="js/ace-responsive-menu-min.js"></script>
-               <script>
-                  /*..............
+
+               <!-- <script src="js/ace-responsive-menu-min.js"></script> -->
+               <!-- <script> -->
+                  <!--/*..............
                       Navigation
-                  ...............*/
-                  $(document).ready(function () {
-                     $("#respMenu").aceResponsiveMenu({
-                         resizeWidth: '1024', // Set the same in Media query       
-                         animationSpeed: 'fast', //slow, medium, fast
-                         accoridonExpAll: false //Expands all the accordion menu on click
-                     });
-                  });
-               </script>
+                  ...............*/-->
+                  <!-- $(document).ready(function () { -->
+                     <!-- $("#respMenu").aceResponsiveMenu({ -->
+                         <!-- resizeWidth: '1024', // Set the same in Media query        -->
+                         <!-- animationSpeed: 'fast', //slow, medium, fast -->
+                         <!-- accoridonExpAll: false //Expands all the accordion menu on click -->
+                     <!-- }); -->
+                  <!-- }); -->
+               <!-- </script> -->
 
                 <!--  ShowCase Gallery -->
                <script src='https://cdn.rawgit.com/AdventCoding/Showcase/c08b7b0d/jquery.showcase.js'></script>
