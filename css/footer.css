@@ -1,0 +1,140 @@
+/*..................
+Subscription form
+..................*/
+.subscription {
+	margin-top: 50px;
+}
+
+.subscription-overlay{
+ background: #039fdc;
+}
+.subscription-wrapper{
+ padding: 12px 0;
+height: 120px;
+}
+.subscription-form{
+ padding: 24px 0px;
+}
+
+.subscription-title{
+    font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.subscription-subtitle{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-top: 6px;
+}
+
+.subscription-form .input-group {
+	box-shadow: none;
+}
+
+.subscription-form .c-form-control {
+	box-shadow: none;
+	background: rgba(255,255,255,0.4);
+	border: none;
+}
+
+.subscription-form .c-form-control::placeholder {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #FFFFFF !important;
+}
+
+.subscription-form input[type="email"] {
+	color: #ffffff !important;
+}
+
+.subscription-form .c-form-control:focus {
+	border: none;
+}
+
+.subscription-form .c-btn {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #039fdc;
+	box-shadow: none;
+	letter-spacing: 0.5px;
+}
+
+/*footer1*/
+.footer1, .footer2{
+ background-color: #EDFAFD;
+}
+
+.footer1{
+ padding-top: 60px;
+}
+
+
+.move-footer {
+	margin-left: 40px;
+}
+
+.footer-item {
+	display: block;
+}
+
+.footer-item h6{
+	color: #7d97ad;
+}
+
+.footer-content-list{
+ padding-top: 20px;
+}
+
+
+.footer-content-list ul li a{
+	text-decoration: none;
+	/*color: #333;*/
+	font-size: 13px;
+	line-height: 28px;
+	color: #525c65;
+}
+
+.footer-content-list ul li:last-child{
+ font-weight: 600;
+ padding-top: 5px;
+}
+
+
+/*footer2*/
+.footer2{
+	padding-bottom: 14px;
+}
+
+.accredit {
+	margin-top: 35px;
+	margin-bottom: 15px;
+	padding-top: 35px;
+	border-top: 1px solid #CBD9DD;
+}
+
+.accredit span {
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 27px;
+	color: #7d97ad;
+}
+
+.footer2 ul li, .footer2 ul li a{
+	font-size: 11px;
+}
+
+.footer2 ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.footer2-icons ul{
+ float: right;
+}
+.footer2 span{
+ display: block;
+ line-height: 24px;
+}

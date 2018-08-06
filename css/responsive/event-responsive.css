@@ -1,0 +1,84 @@
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+     .event{
+     	height: 550px;
+     }
+     .event-text{
+     	padding-top: 100px;
+     }
+     #example1{
+     	font-size: 44px;
+     }
+     .event-title p{
+     	font-size: 28px;
+     	line-height: 36px;
+     }
+     .event-location span p, .event-date span p{
+     	font-size: 24px;
+     }
+}
+
+@media screen and (max-width: 600px) {
+     /* start of phone styles */
+     .event{
+     	height: 500px;
+     }
+     .event-text{
+     	padding-top: 100px;
+     }
+     #example1{
+     	font-size: 32px;
+     }
+     .event-title p{
+     	font-size: 24px;
+     	line-height: 34px;
+     }
+     .event-location span p, .event-date span p{
+     	font-size: 20px;
+     }
+     /*..........
+     Event List Page
+     ............*/
+
+}
+@media screen and (max-width: 600px){
+	.other-events-list-unit{
+		height: 135px;
+	}
+	.other-event-list-border-left {
+	    padding-left: 7px !important;
+	    border-left: 4px solid #00a0dc !important;
+	    height: 100px;
+	    overflow: hidden;
+	}
+	.other-events-list-unit .other-events-list-unit-image img{
+		height: 100px;
+	}
+	.other-events-list-unit-date p{
+		padding-top: 20px;
+	    padding-bottom: 0px;
+	    margin-bottom: 0px;
+	}
+	.other-events-list-unit-date p .other-events-list-unit-date-number{
+		font-size: 34px;
+	}
+	.other-events-list-unit-detail-title{
+		font-size: 16px;
+	}
+	.other-events-list-unit-detail-description span{
+		padding-right: 0px;
+	}
+	.other-events-list-unit-date:hover{
+	    padding-left: 0px;
+	}
+	.other-events-list-unit-date{
+		height: 100%;
+	}
+}

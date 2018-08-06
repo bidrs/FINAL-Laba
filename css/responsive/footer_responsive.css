@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+	.subscription-title { font-size: 18px; }
+	.subscription-subtitle { font-size: 13px; text-align: center;}
+	.footer-item { margin-bottom: 20px; text-align: center;}
+	.move-footer { margin-left: 0; }
+	.footer-content-list { padding-top: 5px; }
+	.accredit { margin-top: 10px; padding-top: 10px; }
+	.accredit span { font-size: 10px; }
+	.foot-last { text-align: center; }
+	.footer2-icons {text-align: center;}
+}
+
+@media screen and (max-width: 320px) {
+
+	.foot-last ul li { display: block; margin-top: 10px;}
+	.footer2-icons { margin-top: 10px; }
+	.footer2-icons ul li {display: inline-block;}
+}

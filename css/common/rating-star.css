@@ -1,0 +1,61 @@
+.rate-star {
+	width: 120px;
+	height: 24px;
+	overflow: hidden;
+	display: inline-block;
+	background: url(../../images/svg/star-gray.svg) repeat-x;
+	margin: 4px 0 -3px;
+}
+
+.active-star {
+	height: 24px;
+	background: url(../../images/svg/star.svg) repeat-x;
+}
+
+.avg-no {
+	font-weight: 300;
+}
+
+.small-active-star {
+	float: left;
+	display: block;
+	width: 90px;
+	height: 24px;
+	background: url(../../images/svg/star-gray-s.svg) repeat-x;
+	margin-top: 1px;
+	margin-right: 2%;
+}
+
+.small-star {
+	height: 24px;
+	background: url(../../images/svg/star-s.svg) repeat-x;
+}
+
+.star-percentage {
+    float: left;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding-top: 1px;
+}
+
+.star-five {
+	width: 90px;
+}
+
+.star-four {
+	width: 73px;
+}
+
+.star-three {
+	width: 56px;
+}
+
+.star-two {
+	width: 39px;
+}
+
+.star-one {
+	width: 22px;
+}

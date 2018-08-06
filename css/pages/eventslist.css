@@ -1,0 +1,181 @@
+
+/*..........................
+.....Event List Page........
+............................*/
+.main-event{
+    padding-top: 175px;
+    text-align: center;
+    color: #fff;
+}
+.main-event-date, .main-event-title, .main-event-subtitle, .main-event-countdown{
+    color: #fff;
+}
+.main-event-date{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 4.5px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.main-event-title{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 28px;
+}
+.main-event-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 25%;
+    margin-bottom: 23px;
+}
+.main-event-countdown{
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: bold;
+}
+/*#example1, #example2{
+    color: #fff;
+}*/
+
+.main-event-countdown-overlay{
+   /* background-color: rgba(0,0,0,0.5);*/
+    background-color: rgba(44,62,80 , 0.6 );
+    background-image: url(../../images/pattern.png);
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.8;
+    padding-top: 20px;
+}
+.main-event li {
+  display: inline-block !important;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+.main-event li span {
+  display: block;
+  font-size: 45px;
+}
+.main-event-register .input-group span{
+    color: #00a0dc;
+}
+.main-event-register{
+    padding: 20px;
+}
+
+.main-event-register .button{
+    text-align: left;
+}
+
+
+.other-events{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.other-events .title-h2{
+      font-weight: 300;
+    color: #2e3d49;
+}
+.other-events-dropdown{
+    width: 100px;
+}
+.other-events-list{
+   box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.other-events-list-unit{
+    padding-top: 20px;
+    /* height: 121px; */
+    /* border: 1px solid #efefef; */
+    text-align: left;
+    overflow: hidden;
+    border-bottom: 1px solid #efefef;
+    height: 160px;
+}
+.other-events-list-unit-left{
+    float: left;
+    overflow: hidden;
+}
+/*.other-events-list-unit .other-events-position{
+    display: inline-block;
+}*/
+.other-event-list-border-left{
+    /*padding-left: 0px !important;*/
+    border-left:  4px solid #00a0dc !important;
+    height: 120px;
+    overflow: hidden;
+}
+.other-events-list-unit-image, .other-events-list-unit-date{
+    position: absolute;
+}
+.other-events-list-unit .other-events-list-unit-image img{
+    height: 120px;
+    width: 100%;
+   
+}
+.other-events-list-unit-date{
+    width: 100%;
+    background-image: url(../../images/pattern.png);
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+}
+.other-events-list-unit-date:hover{
+    background-image: url(../../images/pattern.png);
+    /*background-size: 2px;*/
+    padding-left: 50px;
+}
+.other-events-list-unit-date p{
+   color: #fffffff7;
+    /* padding-left: 57px; */
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    
+}
+.other-events-list-unit-date p .other-events-list-unit-date-number{
+    font-size: 50px;
+}
+.other-events-list-unit-date p .other-events-list-unit-date-month{
+    font-size: 16px;
+}
+.other-events-list-unit-detail{
+  margin-top: -7px;
+}
+.other-events-list-unit-detail-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.other-events-list-unit-detail-description span{
+    padding-right: 20px;
+    color: #00a0dc;
+}
+.other-events-list-unit-detail-description span,
+.other-events-list-unit-detail-description span i,
+.other-events-list-unit-detail-description-duration,
+.other-events-list-unit-detail-description-hours,
+.other-events-list-unit-detail-description-level,
+.other-events-list-unit-detail-description-type
+{
+    display: inline-block;
+}
+.other-events-list-unit-detail-description-subtitle p{
+    line-height: 23px;
+    margin-top: -4px;
+}
+#calendar{
+    padding-top: 15px;
+}
+
