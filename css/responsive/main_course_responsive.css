@@ -1,0 +1,60 @@
+ @media screen and (max-width: 600px) {
+
+
+	/*  --------------------- INDEX ------------------------*/
+	.search-container {transform: translateY(14%);}
+	.search-container::before { max-width: 400px; }
+	.search-container-inner h1 { font-size: 16px; }
+	.search-sub {font-size: 12px;}
+	.searching form { max-width: 330px; }
+	.searching input { font-size: 12px; }
+	.searching input, .searching button { height: 50px; }
+	.first-section-list ul li { padding: 0px 2px 0px 2px; }
+	.first-section-list ul li a {font-size: 11px;}
+	.first-section-list { max-width: 370px; }
+
+	/*  --------------------- INDEX ------------------------*/
+
+
+ }
+
+ @media screen and (max-width: 375px) {
+
+
+ 	/*  --------------------- INDEX ------------------------*/
+ 	
+ 	.search-container::before { max-width: 360px; }
+ 	.first-section-list { max-width: 330px; }
+ 	
+
+	/*  --------------------- INDEX ------------------------*/
+
+ }
+
+ @media screen and (max-width: 360px) {
+
+
+ 	/*  --------------------- INDEX ------------------------*/
+ 	.search-container {transform: translateY(10%);}
+ 	.search-container::before { max-width: 340px; }
+ 	.searching form { max-width: 310px; }
+ 	.first-section-list { max-width: 310px; }
+ 	
+
+	/*  --------------------- INDEX ------------------------*/
+
+ }
+
+@media screen and (max-width: 320px) {
+
+
+ 	/*  --------------------- INDEX ------------------------*/
+ 	.search-container {transform: translateY(10%);}
+ 	.search-container::before { max-width: 300px; }
+ 	.searching form { max-width: 280px; }
+ 	.first-section-list { max-width: 280px; }
+ 	
+
+	/*  --------------------- INDEX ------------------------*/
+
+ }

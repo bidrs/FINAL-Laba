@@ -18,8 +18,7 @@
       <link rel="stylesheet" type="text/css" href="css/menu.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
 
-      <!-- RESPONSIVE -->
-      <link rel="stylesheet" type="text/css" href="css/responsive/footer_responsive.css">
+      
 
       <!-- MAIN CSS -->
       <link rel="stylesheet" type="text/css" href="css/course_main.css">
@@ -31,3 +30,9 @@
       <link rel="stylesheet" href="css/plugins/showcase.css">
       <link rel="stylesheet" href="css/plugins/jquery.fancybox.css">
       <link rel="stylesheet" href="css/plugins/jquery.fancybox-buttons.css">
+
+
+      <!-- RESPONSIVE -->
+      <link rel="stylesheet" type="text/css" href="css/responsive/footer_responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive/main_course_responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive/main_responsive.css">
