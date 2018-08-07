@@ -423,82 +423,130 @@
                             <div class="col-md-8">
                                 <div class="events-shadow">
                                     <h2 class="title-h2 text-light event-title">Event</h2>
-                                    <div class="events-list">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="events-first">
-                                                    <a href="#">
-                                                        <img src="images/1.jpg" alt="event">
-                                                        <h4 class="title-h4 tc-title">Dedicated to Perfection in ICT</h4>
-                                                    </a>
-                                                    <span><p class="events-first-author">LABA</p></span>
-                                                    <span><p class="events-first-dash">-</p></span>
-                                                    <span><p class="events-first-date">Date: May 19, 1995</p></span>
-                                                    <!-- <p class="events-first-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam... -->
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-                                                    <!-- <p> -->
-                                                </div>
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                            <div class="events-unit">
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-date">
+                                                     <div class="events-date-day">
+                                                        <p>02</p>
+                                                     </div>
+                                                     <div class="events-date-month">
+                                                        <p>Jan</p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-6 col-sm-6 " >
+                                                  <div class="events-content">
+                                                     <div class="events-content-title">
+                                                        <a href="#">
+                                                           <h3 class="title-h3 text-light">Designing Workshop</h3>
+                                                        </a>
+                                                     </div>
+                                                     <div class="events-content-information">
+                                                        <div class="events-content-information-time">
+                                                           <i class="far fa-clock"></i><span> Time:</span>  <span>12:00 A.M</span>
+                                                        </div>
+                                                        <div class="events-content-information-location">
+                                                           <i class="fas fa-location-arrow"></i>  <span>Location:</span> <span>Kathmandu</span>
+                                                        </div>
+                                                     </div>
+                                                     <div class="events-content-subtitle">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                                        </p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-image">
+                                                     <img src="images/1.jpg">
+                                                  </div>
+                                               </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <div class="events-more">
-                                                    <span class="events-more-image">
-                                       <a href="#">
-                                          <img src="images/2.jpg" alt="event">
-                                       </a>
-                                    </span>
-                                                    <span class="events-more-description">
-                                       <a href="#">
-                                          <h4 class="title-h4 events-more-title">Dedicated to Perfection in ICT</h4>
-                                       </a>
-                                       <p class="events-more-date">Date: May 19, 1995</p>
-                                    </span>
-                                                </div>
-                                                <div class="events-more">
-                                                    <span class="events-more-image">
-                                       <a href="#">
-                                          <img src="images/1.jpg" alt="event">
-                                       </a>
-                                    </span>
-                                                    <span class="events-more-description">
-                                       <a href="#">
-                                           <h4 class="title-h4 events-more-title">Dedicated to Perfection in ICT</h4>
-                                       </a>
-                                       <p class="events-more-date">Date: May 19, 1995</p>
-                                    </span>
-                                                </div>
-                                                <div class="events-more">
-                                                    <span class="events-more-image">
-                                       <a href="">
-                                          <img src="images/2.jpg" alt="event">
-                                       </a>
-                                    </span>
-                                                    <span class="events-more-description">
-                                       <a href="#">
-                                          <h4 class="title-h4 events-more-title">Dedicated to Perfection in ICT</h4>
-                                       </a>
-                                       <p class="events-more-date">Date: May 19, 1995</p>
-                                    </span>
-                                                </div>
-                                                <div class="events-more">
-                                                    <span class="events-more-image">
-                                       <a href="">
-                                          <img src="images/1.jpg" alt="event">
-                                       </a>
-                                    </span>
-                                                    <span class="events-more-description">
-                                       <a href="#">
-                                          <h4 class="title-h4 events-more-title">Dedicated to Perfection in ICT</h4>
-                                       </a>
-                                       <p class="events-more-date">Date: May 19, 1995</p>
-                                    </span>
-                                                </div>
-                                                <div class="events-more text-center">
-                                                    <a href="eventslist.php" alt="loadmore" class="loadmore">View More <i class="fas fa-plus-circle"></i></a>
-                                                </div>
+                                         </div>
+
+                                         <div class="col-md-12">
+                                            <div class="events-unit">
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-date">
+                                                     <div class="events-date-day">
+                                                        <p>02</p>
+                                                     </div>
+                                                     <div class="events-date-month">
+                                                        <p>Jan</p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-6 col-sm-6 " >
+                                                  <div class="events-content">
+                                                     <div class="events-content-title">
+                                                        <a href="#">
+                                                           <h3 class="title-h3 text-light">Designing Workshop</h3>
+                                                        </a>
+                                                     </div>
+                                                     <div class="events-content-information">
+                                                        <div class="events-content-information-time">
+                                                           <i class="far fa-clock"></i><span> Time:</span>  <span>12:00 A.M</span>
+                                                        </div>
+                                                        <div class="events-content-information-location">
+                                                           <i class="fas fa-location-arrow"></i>  <span>Location:</span> <span>Kathmandu</span>
+                                                        </div>
+                                                     </div>
+                                                     <div class="events-content-subtitle">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                                        </p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-image">
+                                                     <img src="images/1.jpg">
+                                                  </div>
+                                               </div>
                                             </div>
-                                        </div>
-                                    </div>
+                                         </div>
+
+                                         <div class="col-md-12">
+                                            <div class="events-unit">
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-date">
+                                                     <div class="events-date-day">
+                                                        <p>02</p>
+                                                     </div>
+                                                     <div class="events-date-month">
+                                                        <p>Jan</p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-6 col-sm-6 " >
+                                                  <div class="events-content">
+                                                     <div class="events-content-title">
+                                                        <a href="#">
+                                                           <h3 class="title-h3 text-light">Designing Workshop</h3>
+                                                        </a>
+                                                     </div>
+                                                     <div class="events-content-information">
+                                                        <div class="events-content-information-time">
+                                                           <i class="far fa-clock"></i><span> Time:</span>  <span>12:00 A.M</span>
+                                                        </div>
+                                                        <div class="events-content-information-location">
+                                                           <i class="fas fa-location-arrow"></i>  <span>Location:</span> <span>Kathmandu</span>
+                                                        </div>
+                                                     </div>
+                                                     <div class="events-content-subtitle">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
+                                                        </p>
+                                                     </div>
+                                                  </div>
+                                               </div>
+                                               <div class="col-md-3 col-sm-3 ">
+                                                  <div class="events-image">
+                                                     <img src="images/1.jpg">
+                                                  </div>
+                                               </div>
+                                            </div>
+                                         </div>
+                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
