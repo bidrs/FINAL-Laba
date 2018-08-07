@@ -194,6 +194,19 @@ ul li {
   border: none !important;
 }
 
+/* ------ MAP ------*/
+.gmnoprint button img{
+ width: 120px !important;
+}
+.gm-svpc img{
+ width: 215px !important;
+}
+.gm-style button img.gm-fullscreen-control{
+ width: 164px !important;
+} 
+/* ------ MAP ------*/
+
+
 /*  ----- BUTTON ----*/
 .common-btn {
   display: block;
