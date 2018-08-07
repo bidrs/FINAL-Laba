@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="css/pages/innerevent.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive/event-responsive.css">
-	<title>Inner Event</title>
+	<title>Inner Event</title> 
 </head>
 <body>
 <!-- .........................
@@ -10,77 +10,71 @@
 <?php include 'includes/menu.php';  ?>
 <section class="event">
 	<div class="event-overlay">
-		<div id="demo1">
-		    <!-- <img alt="background" src="assets/images/background.png" /> -->
-		    <div id="particle-target" ></div>
-		    <!-- <img alt="logo" src="assets/images/logo.png" /> -->
-		</div>
 		<div class="event-text col-md-12 col-sm-12 col-xs-12">
-			<div id="example1" data-countdown="10/01/2018 05:06:59"></div>
-			<div class="event-title"><p>Microsoft Workshop & Training</p></div>
+			<div id="event-countdown" data-countdown="08/09/2018 05:06:59"></div>
+			<h1 class="title-h1 text-bold text-w text-u p-t-4 p-b-4">Microsoft Workshop & Training</h1>
 			<div class="event-location">
-				<i class="fas fa-map-marker-alt"></i><span><p>Anamnagar, Kathmandu</p></span>
+				<i class="fas fa-map-marker-alt"></i><span>Anamnagar, Kathmandu</span>
 			</div>
 			<div class="event-date">
-				<i class="far fa-calendar-alt"></i><span><p>23-27 Dec 2018</p></span>
-			</div>
-			<div class="event-button">
-				<a href="#event-register"  class="btn btn-primary">Register</a>
+				<i class="far fa-calendar-alt"></i><span>23-27 Dec 2018</span>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="event-about">
+
+
+<section class="event-content">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12 event-about-introduction">
-				<div class="">
-					<p>Introduction</p>
-					<div class="col-md-10 col-md-offset-1">
-						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum  dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+			<div class="event-content-inner">
+				<div class="col-md-9">
+					<div class="event-content-space-1">
+						<div class="entry-content">
+							<h2 class="title-h2 text-light header-color">Event Description</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+						</div>
+
+						<div class="entry-objectives">
+							<h2 class="title-h2 text-light header-color">Event Objectives</h2>
+							<ul>
+								<li>Over 37 lectures and 55.5 hours of content!</li>
+								<li>LIVE PROJECT End to End Software Testing Training Included.</li>
+								<li>Learn Software Testing and Automation basics from a professional trainer from your own desk.</li>
+								<li>Information packed practical training starting from basics to advanced testing techniques.</li>
+								<li>Best suitable for beginners to advanced level users and who learn faster when demonstrated.</li>
+								<li>Course content designed by considering current software testing technology and the job market.</li>
+								<li>Practical assignments at the end of every session.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="event-content-space-2">
+						<div class="event-info">
+							<h4 class="title-h4 text-bold"><i class="far fa-calendar-alt"></i> Date / Time</h4>
+							<p>12:00 pm</p>
+							<p>Monday, August 25, 2018</p>
+						</div>
+						<div class="event-info no-border">
+							<h4 class="title-h4 text-bold"><i class="fas fa-map-marker-alt"></i> Address</h4>
+							<p>Anamnagar, Kathmandu</p>
+
+							<div class="event-location">
+								<div id="map"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			
-			<div class="col-md-12 col-sm-12 col-xs-12 event-about-objectives">
-				<div class="">
-					<p class="event-about-objectives-title">Objectives</p>
-					<div class="event-about-objectives-list col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
-						<ul>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve. this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve. this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							<li>this is the dummy text for the objective of the event this is the dummy text for the objective of the eve. this is the dummy text for the objective of the event this is the dummy text for the objective of the eve.</li>
-							
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
+
 </section>
-<section class="event-map">
-	<div class="container">
-		<div class="row">
-			<div class="map">
-				<p class="event-map-title">Find Us At</p>
-				<div class="col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
-					<div id="map">
-				</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section id="event-register" class="event-register">
+
+<!-- <section id="event-register" class="event-register">
 	<div class="container">
 		<div class="row">
 			
@@ -115,7 +109,7 @@
 			
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="event-speaker">
 	<div class="container">
 		<div class="row">
@@ -276,7 +270,6 @@
 		});
 
 	</script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoBC6HMhvJOvkFiSAL1bvM3KDDRxtIvfU&callback=myMap"></script>
 		<script>
 						/*.......................................
 			map for event location in innerevent page
@@ -292,4 +285,6 @@
 			  });
 			  marker.setMap(map);}
 		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoBC6HMhvJOvkFiSAL1bvM3KDDRxtIvfU&callback=myMap"></script>
+		
 </html>

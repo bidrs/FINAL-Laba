@@ -439,7 +439,7 @@
                                                <div class="col-md-6 col-sm-6 " >
                                                   <div class="events-content">
                                                      <div class="events-content-title">
-                                                        <a href="#">
+                                                        <a href="innerevent.php">
                                                            <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                         </a>
                                                      </div>
@@ -480,7 +480,7 @@
                                                <div class="col-md-6 col-sm-6 " >
                                                   <div class="events-content">
                                                      <div class="events-content-title">
-                                                        <a href="#">
+                                                        <a href="innerevent.php">
                                                            <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                         </a>
                                                      </div>
@@ -521,7 +521,7 @@
                                                <div class="col-md-6 col-sm-6 " >
                                                   <div class="events-content">
                                                      <div class="events-content-title">
-                                                        <a href="#">
+                                                        <a href="innerevent.php">
                                                            <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                         </a>
                                                      </div>

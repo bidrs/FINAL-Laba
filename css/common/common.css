@@ -128,6 +128,10 @@ ul li {
   font-weight: 300 !important;
 }
 
+.text-u {
+  text-transform: uppercase;
+}
+
 .p-t-1{
     padding-top: 10px;
 }
@@ -137,12 +141,31 @@ ul li {
 .p-t-3{
     padding-top: 30px;
 }
+
+.p-t-4{
+    padding-top: 40px;
+}
+
 .p-t-9{
     padding-top: 90px;
 }
 .p-b-1{
     padding-bottom: 10px;
 }
+
+.p-b-2{
+    padding-bottom: 20px;
+}
+
+.p-b-3{
+    padding-bottom: 30px;
+}
+
+.p-b-4{
+    padding-bottom: 40px;
+}
+
+
 .m-t-2{
     margin-top: 20px;
 }
@@ -164,6 +187,11 @@ ul li {
 }
 .p-t-5{
   padding-top: 50px;
+}
+
+
+.no-border {
+  border: none !important;
 }
 
 /*  ----- BUTTON ----*/
