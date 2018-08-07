@@ -390,25 +390,54 @@
                  )
                  wow.init();
                </script>
+              
+              <!-- gallery fancybiox -->
                
-               
+              <script  src="js/plugins/jquery.fancybox.js"></script>
+              <script  src="js/plugins/jquery.fancybox.pack.js"></script>
+              <script  src="js/plugins/jquery.fancybox-buttons.js"></script>
+             
+         
+              <script type="text/javascript">
+                jQuery(function ($) {
+                   // fancybox
+                   $(".fancybox").fancybox({
+                       modal: true, // disable regular nav and close buttons
+                       // add buttons helper (requires buttons helper js and css files)
+                       helpers: {
+                           buttons: {}
+                         
+                       }
+                   });
+                   // filter selector
+                   $(".filter").on("click", function () {
+                       var $this = $(this);
+                       // if we click the active tab, do nothing
+                       if ( !$this.hasClass("active") ) {
+                           $(".filter").removeClass("active");
+                           $this.addClass("active"); // set the active tab
+                           // get the data-rel value from selected tab and set as filter
+                           var $filter = $this.data("rel");
+                           // if we select view all, return to initial settings and show all
+                           $filter == 'all' ?
+                               $(".fancybox")
+                               .attr("data-fancybox-group", "gallery")
+                               .not(":visible")
+                               .fadeIn()
+                           : // otherwise
+                               $(".fancybox")
+                               .fadeOut(0)
+                               .filter(function () {
+                                   // set data-filter value as the data-rel value of selected tab
+                                   return $(this).data("filter") == $filter;
+                               })
+                               // set data-fancybox-group and show filtered elements
+                               .attr("data-fancybox-group", $filter)
+                               .fadeIn(1000);
+                       } // if
+                   }); // on
+                }); // ready
+              </script>
 
-               <!-- <script src="js/ace-responsive-menu-min.js"></script> -->
-               <!-- <script> -->
-                  <!--/*..............
-                      Navigation
-                  ...............*/-->
-                  <!-- $(document).ready(function () { -->
-                     <!-- $("#respMenu").aceResponsiveMenu({ -->
-                         <!-- resizeWidth: '1024', // Set the same in Media query        -->
-                         <!-- animationSpeed: 'fast', //slow, medium, fast -->
-                         <!-- accoridonExpAll: false //Expands all the accordion menu on click -->
-                     <!-- }); -->
-                  <!-- }); -->
-               <!-- </script> -->
-
-                <!--  ShowCase Gallery -->
-               <script src='https://cdn.rawgit.com/AdventCoding/Showcase/c08b7b0d/jquery.showcase.js'></script>
-               <script  src="js/plugins/showcase.js"></script>
                
             

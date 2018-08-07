@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito+Sans:300,400,700');*/
 
 /*Navigation*/
-.navbar-default {
+/*.navbar-default {
     background-color: transparent;
     border-color: transparent;
 }
@@ -29,13 +29,13 @@
 }
 #navbar2 ul li{
   /*padding-left: 20px;*/
-  text-transform: uppercase;
+ /* text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.8px;*/
 
-}
-#navbar2 ul li:nth-child(4){
+/*}*/
+/*#navbar2 ul li:nth-child(4){
   margin-top: -5px;
   font-size: 27px;
    font-weight: normal;
@@ -61,14 +61,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: cover;
-}
+}*/
 
-.main-head {
-  /*display: block;*/
-  /*height: 70vh;*/
-}
 
-.first-section{
+/*.first-section{
   text-align: center;
   vertical-align: middle;
   padding-top: 80px;
@@ -187,16 +183,15 @@
 
 .first-section-button-enquire {
     transition: all 300ms ease-in-out 0.1s;
-}
+}*/
 /*Partners*/
 
-.partners-section {
+/*.partners-section {
   background: #ebf5fa;
   padding: 14px 0;
 }
 
 .partners{
-  /*padding-top: 12px;*/
   text-align: center;
 }
 
@@ -206,7 +201,7 @@
 
 .customer-logos {
   padding-bottom: 8px;
-}
+}*/
 /*.partners p{
    text-transform: uppercase;
   text-align: center;
@@ -215,6 +210,9 @@
   font-size: 14px;
   letter-spacing: 0.6;
 }*/
+
+
+
 /* Slider */
 
 .slick-slide {

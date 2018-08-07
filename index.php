@@ -912,26 +912,37 @@
                         </div>
                      </div>
                   </section>
+                   
+
+                   <!-- GALLERY -->
                    <section class="gallery p-t-5">
-                     <div class="container">
-                        <div class="row">
-                           <h2 class="title-h2 m-b-3 text-light">Laba Gallery</h2>
-                            <main>
-                     <div class="box images">
-    <img class="showcase" alt="Beauty of Nature" src="https://images.unsplash.com/photo-1446292532430-3e76f6ab6444?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b7369f413e3a8640aa00d97f46e26f8&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Forest Haven" src="https://images.unsplash.com/photo-1455218873509-8097305ee378?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ac55173e7081e90ac500bb24da47a91&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Mountain Cabin" src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a14ca13b83f7bce82764a45d13576418&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Cavern Sky" src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b76b1e6da83c1a0f59eebaa481e12aa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Brilliant Flower" src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4e49f0b66341702171b119d4578a05ff&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Waterfall Brook" src="https://images.unsplash.com/photo-1524396319428-02eba035db6e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd08acf0645f0bc73aa3210f4c8fb95e&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-     <img class="showcase" alt="Mountain Cabin" src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a14ca13b83f7bce82764a45d13576418&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-    <img class="showcase" alt="Cavern Sky" src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b76b1e6da83c1a0f59eebaa481e12aa&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb">
-  </div>
-  </main>  
-                        </div>
-                     </div>
-                    
+                    <div class="container">
+                       <div class="row">
+                          <h2 class="title-h2 m-b-3">Laba Gallery</h2>
+                          <div class="col-md-12">
+                             <div id="galleryTab text-center">
+                                <a data-rel="all"  href="javascript:;" class="filter active c-bg-blue">View all</a>
+                                <a data-rel="anim" href="javascript:;" class="filter c-bg-blue">Animals</a>
+                                <a data-rel="land" href="javascript:;" class="filter c-bg-blue">Landscapes</a>
+                                <a data-rel="arch" href="javascript:;" class="filter c-bg-blue">Architecture</a>
+                             </div>
+                          </div>
+                          <div class="col-md-12">
+                             <div class="galleryWrap">
+                                <a class='fancybox imgContainer' href='images/1.jpg' data-fancybox-group='gallery' data-filter='arch' title="Proin imperdiet"><img src='images/1.jpg' alt='images/1.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/2.jpg' data-fancybox-group='gallery' data-filter='anim' title="Proin imperdiet"><img src='images/2.jpg' alt='images/2.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/21.jpg' data-fancybox-group='gallery' data-filter='arch' title="Proin imperdiet"><img src='images/21.jpg' alt='images/21.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/about1.jpg' data-fancybox-group='gallery' data-filter='land' title="Proin imperdiet"><img src='images/about1.jpg' alt='images/about1.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/about2.jpg' data-fancybox-group='gallery' data-filter='anim' title="Proin imperdiet"><img src='images/about2.jpg' alt='images/about2.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/avatar.jpg' data-fancybox-group='gallery' data-filter='land' title="Proin imperdiet"><img src='images/avatar.jpg' alt='images/avatar.jpg' /></a>
+                                 <a class='fancybox imgContainer' href='images/1.jpg' data-fancybox-group='gallery' data-filter='arch' title="Proin imperdiet"><img src='images/1.jpg' alt='images/1.jpg' /></a>
+                                <a class='fancybox imgContainer' href='images/2.jpg' data-fancybox-group='gallery' data-filter='anim' title="Proin imperdiet"><img src='images/2.jpg' alt='images/2.jpg' /></a>
+                   </div>
+                          </div>
+                       </div>
+                    </div>
                   </section>
+                  <!-- GALLERY -->
 
                   <!-- Footer --->
                   <?php include 'includes/footer.php'; ?>

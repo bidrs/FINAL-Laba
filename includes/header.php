@@ -9,7 +9,6 @@
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-      <link rel='stylesheet' href='https://cdn.rawgit.com/AdventCoding/Showcase/c08b7b0d/css/jquery.showcase.light.css'>
 
       <!-- COMMON -->
       <link rel="stylesheet" type="text/css" href="css/common/rating-star.css">
@@ -30,3 +29,5 @@
       <link rel="stylesheet" type="text/css" href="css/plugins/animate.min.css">
       <link rel="stylesheet" type="text/css" href="css/plugins/flickity.min.css">
       <link rel="stylesheet" href="css/plugins/showcase.css">
+      <link rel="stylesheet" href="css/plugins/jquery.fancybox.css">
+      <link rel="stylesheet" href="css/plugins/jquery.fancybox-buttons.css">
