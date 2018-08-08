@@ -1,6 +1,7 @@
-@media screen and (max-width: 600px) {
-	.subscription-title { font-size: 18px; }
+@media screen and (max-width: 667px) {
+	.subscription-title { font-size: 18px; text-align: center; }
 	.subscription-subtitle { font-size: 13px; text-align: center;}
+	.subscription-form button { height: 48px; } ;
 	.footer-item { margin-bottom: 20px; text-align: center;}
 	.move-footer { margin-left: 0; }
 	.footer-content-list { padding-top: 5px; }
@@ -8,6 +9,7 @@
 	.accredit span { font-size: 10px; }
 	.foot-last { text-align: center; }
 	.footer2-icons {text-align: center;}
+
 }
 
 @media screen and (max-width: 320px) {

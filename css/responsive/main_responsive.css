@@ -1,4 +1,4 @@
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 667px) {
  	p , span { line-height: 25px;font-size: 13px; }	
   .title-h1 { font-size: 30px; }
   .title-h2 {

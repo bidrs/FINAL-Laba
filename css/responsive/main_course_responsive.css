@@ -1,4 +1,13 @@
- @media screen and (max-width: 834px) {
+@media screen and (max-width: 991px) {
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event-content-space-1 { border-bottom: 1px solid #efefef; border-right: 0; padding-right: 0; padding-bottom: 25px; }
+	
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+
+}
+
+@media screen and (max-width: 834px) {
 
 
 	/*  --------------------- INDEX ------------------------*/
@@ -31,8 +40,30 @@
 	.first-section-list ul li { padding: 0px 2px 0px 2px; }
 	.first-section-list ul li a {font-size: 11px;}
 	.first-section-list { max-width: 370px; }
-
 	/*  --------------------- INDEX ------------------------*/
+
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event { height: 430px; }
+	.event-text { padding-top: 75px; }
+	#event-countdown span { font-size: 50px; }
+	#event-countdown p {font-size: 11px; }
+	.event-location i, .event-date i { font-size: 13px; }
+	.event-location span, .event-date span {font-size: 15px; }
+
+
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+ }
+
+ @media screen and (max-width: 568px) {
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event { height: 390px; }
+	.event-text { padding-top: 45px; }
+	.event-text h1 { line-height: 34px; padding-bottom: 15px; }
+	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
  }
 
  @media screen and (max-width: 375px) {
@@ -45,6 +76,14 @@
  	
 
 	/*  --------------------- INDEX ------------------------*/
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	#event-countdown span { font-size: 30px; }
+	.event-text h1 { font-size: 25px; line-height: 30px;}
+
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+
 
  }
 
@@ -70,8 +109,6 @@
  	.search-container::before { max-width: 300px; }
  	.searching form { max-width: 280px; }
  	.first-section-list { max-width: 280px; }
- 	
-
 	/*  --------------------- INDEX ------------------------*/
 
  }

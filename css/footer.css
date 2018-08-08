@@ -16,6 +16,7 @@ height: 120px;
  padding: 24px 0px;
 }
 
+
 .subscription-title{
     font-size: 20px;
 	font-weight: 700;
@@ -59,7 +60,10 @@ height: 120px;
 	color: #039fdc;
 	box-shadow: none;
 	letter-spacing: 0.5px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
 }
+
 
 /*footer1*/
 .footer1, .footer2{

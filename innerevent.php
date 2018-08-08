@@ -74,139 +74,87 @@
 
 </section>
 
-<!-- <section id="event-register" class="event-register">
-	<div class="container">
-		<div class="row">
-			
-				<div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
-					<div class="">
-						<p class="event-register-title">Register</p>
-					</div>
-					<div class="event-register-form col-md-12 col-sm-12 col-xs-12">
-					<form action="/action_page.php">
-					<div class="form-group col-md-6 col-sm-12 col-xs-12">
-					    <label for="name" class="event-register-form-label">Your Name:</label>
-					    <input type="text" class="form-control" >
-					  </div>
-					  <div class="form-group col-md-6 col-sm-12 col-xs-12">
-					    <label for="contact" class="event-register-form-label">Your Contact Number:</label>
-					    <input type="text" class="form-control" >
-					  </div>
-					  <div class="form-group col-md-12 col-sm-12 col-xs-12">
-					    <label for="email" class="event-register-form-label">Your Email address:</label>
-					    <input type="email" class="form-control" >
-					  </div>
-					 <div class="col-md-12 event-register-button">
-					 	<button type="submit" class="btn btn-primary">Submit</button>
-					 </div>
-					  
-					</form>
-				
-				</div>
-				
-				
-			</div>
-			
-		</div>
-	</div>
-</section> -->
 <section class="event-speaker">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 ">
+			<div class="col-md-12">
+				<h2 class="title-h2 text-light header-color text-center m-b-2">Who's Speaking</h2>
 				
-					<p class="event-speaker-title">Who's Speaking</p>
-				
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="event-speaker-unit">
 						<div class="event-speaker-photo">
-							<img src="images/avatar.jpg">
+							<img src="images/0.jpeg">
 						</div>
 						<div class="event-speaker-name">
-							<p>Manish Shrestha</p>
+							<h4 class="title-h4 text-bold">Mr. Maheshwor M. Joshi</h4>
 						</div>
 						<div class="event-speaker-position">
-							<p>Web Designer</p>
-						</div>
-						<div class="event-speaker-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+							<p>Sr. Software Engineer, LABA Pvt</p>
 						</div>
 						<div class="event-speaker-description">
-							<p class="event-speaker-description-title">Manish Shrestha</p>
-							<p class="event-speaker-description-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							<h4 class="title-h4 text-w text-bold">Profile</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo
 							consequat quis nostrud exercitation ullamco on ullamco laboris nisi </p>
 							<div class="event-speaker-description-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+							<a href="https://www.facebook.com/" target="_blank"><span><i class="fab fa-facebook-f"></i></span></a>
+							<a href="https://twitter.com/login?lang=en" target="_blank"><span><i class="fab fa-twitter"></i></span></a>
+							<a href="https://www.linkedin.com/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
+
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="event-speaker-unit">
 						<div class="event-speaker-photo">
-							<img src="images/avatar-2-300x300.png">
+							<img src="images/pn.jpeg">
 						</div>
 						<div class="event-speaker-name">
-							<p>Manish Shrestha</p>
+							<h4 class="title-h4 text-bold">Mr. Pradap Nembang</h4>
 						</div>
 						<div class="event-speaker-position">
-							<p>Web Designer</p>
-						</div>
-						<div class="event-speaker-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+							<p>Sr. System Engineer, LABA Pvt</p>
 						</div>
 						<div class="event-speaker-description">
-							<p class="event-speaker-description-title">Manish Shrestha</p>
-							<p class="event-speaker-description-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat quis nostrud exercitation ullamco laboris nisi ut aliquip ullamco laboris nisi ut aliquip ex ea commodo
-							consequat quis nostrud exercitation ullamco on ullamco laboris nisi </p>
-							<div class="event-speaker-description-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="event-speaker-unit">
-						<div class="event-speaker-photo">
-							
-								<img src="images/img_avatar.png">
-							
-							
-						</div>
-						<div class="event-speaker-name">
-							<p>Manish Shrestha</p>
-						</div>
-						<div class="event-speaker-position">
-							<p>Web Designer</p>
-						</div>
-						<div class="event-speaker-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
-						</div>
-						<div class="event-speaker-description">
-							<p class="event-speaker-description-title">Manish Shrestha</p>
-							<p class="event-speaker-description-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							<h4 class="title-h4 text-w text-bold">Profile</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo
 							consequat quis nostrud exercitation ullamco on ullamco laboris nisi </p>
 							<div class="event-speaker-description-social">
-							<a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-							<a href="#"><span><i class="fab fa-twitter"></i></span></a>
-							<a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
+							<a href="https://www.facebook.com/" target="_blank"><span><i class="fab fa-facebook-f"></i></span></a>
+							<a href="https://twitter.com/login?lang=en" target="_blank"><span><i class="fab fa-twitter"></i></span></a>
+							<a href="https://www.linkedin.com/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="event-speaker-unit">
+						<div class="event-speaker-photo">
+							<img src="images/sjk.jpeg">
+						</div>
+						<div class="event-speaker-name">
+							<h4 class="title-h4 text-bold">Mr. Sachin J. Karki</h4>
+						</div>
+						<div class="event-speaker-position">
+							<p>CEH, Microsoft Certified, LABA Pvt</p>
+						</div>
+						<div class="event-speaker-description">
+							<h4 class="title-h4 text-w text-bold">Profile</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo
+							consequat quis nostrud exercitation ullamco on ullamco laboris nisi </p>
+							<div class="event-speaker-description-social">
+							<a href="https://www.facebook.com/" target="_blank"><span><i class="fab fa-facebook-f"></i></span></a>
+							<a href="https://twitter.com/login?lang=en" target="_blank"><span><i class="fab fa-twitter"></i></span></a>
+							<a href="https://www.linkedin.com/" target="_blank"><span><i class="fab fa-linkedin-in"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 			
 		</div>
