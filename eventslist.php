@@ -26,7 +26,7 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="events-content">
                                             <div class="events-content-title">
-                                                <a href="#">
+                                                <a href="innerevent.php">
                                                     <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                 </a>
                                             </div>
@@ -43,7 +43,7 @@
                                                 </p>
                                             </div>
                                             <div class="events-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                <a href="innerevent.php" class="btn c-btn c-bg-blue no-box-shadow">
 										Read More
 									</a>
                                             </div>
@@ -74,7 +74,7 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="events-content">
                                             <div class="events-content-title">
-                                                <a href="#">
+                                                <a href="innerevent.php">
                                                     <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                 </a>
                                             </div>
@@ -91,7 +91,7 @@
                                                 </p>
                                             </div>
                                             <div class="events-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                <a href="innerevent.php" class="btn c-btn c-bg-blue no-box-shadow">
 										Read More
 									</a>
                                             </div>
@@ -122,7 +122,7 @@
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                         <div class="events-content">
                                             <div class="events-content-title">
-                                                <a href="#">
+                                                <a href="innerevent.php">
                                                     <h3 class="title-h3 text-light">Designing Workshop</h3>
                                                 </a>
                                             </div>
@@ -139,7 +139,7 @@
                                                 </p>
                                             </div>
                                             <div class="events-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                <a href="innerevent.php" class="btn c-btn c-bg-blue no-box-shadow">
 										Read More
 									</a>
                                             </div>
