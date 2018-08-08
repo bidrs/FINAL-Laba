@@ -194,6 +194,46 @@ ul li {
   border: none !important;
 }
 
+/* SOCIAL MEDIA */
+.fb-media {
+  background-color: #3b5998 !important;
+}
+
+.t-media {
+  background-color: #1da1f2 !important;
+}
+
+.link-media {
+  background-color: #007bb6 !important;
+}
+
+.gp-media {
+  background-color: #de5447 !important;
+}
+
+.fb-media, .t-media, .link-media, .gp-media {
+  color: #fff !important;
+}
+
+.fb-media:hover {
+  background-color: #304b83 !important;
+}
+
+.t-media:hover {
+  background-color: #1a8bd1 !important;
+}
+
+.link-media:hover {
+  background-color: #036c9f !important;
+}
+
+.gp-media:hover {
+  background-color: #c84a3e !important;
+}
+
+
+/* SOCIAL MEDIA */
+
 /* ------ MAP ------*/
 .gmnoprint button img{
  width: 120px !important;
@@ -283,6 +323,9 @@ ul li {
   box-shadow: none;
 }
 
+.no-box-shadow {
+ box-shadow: none;
+}
 
 
 /* ----- FORM ----- */

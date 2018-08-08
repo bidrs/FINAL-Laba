@@ -1,71 +1,4 @@
-/*Navigation*/
-/*.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-}
-.navbar-nav>li>.dropdown-menu {
-  z-index: 9999;
-}
-.navigation{
-  padding-top: 50px; 
-  color: #fff;
-}
-.navigation a{
-  vertical-align: middle;
-  text-align: center;
-}
-.navigation a{
-  display: block !important;
-}
-.navigation a img{
-  max-height: 63px;
-  display: block !important;
-  
-}
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-}
-#navbar2 ul li{
-  /*padding-left: 20px;*/
-/*  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: bold;
-  letter-spacing: 0.8px;
-
-}
-#navbar2 ul li:nth-child(4){
-  margin-top: -5px;
-  font-size: 27px;
-   font-weight: normal;
-}
-#navbar2 ul li:nth-child(5){
-  margin-top: -5px;
-  font-size: 27px;
-   font-weight: normal;
-}
-.navbar-default .navbar-toggle {
-    border-color: transparent !important;
-    cursor: pointer !important; 
-
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent !important;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}*/
-
-
-/*.gradient{
-  background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: cover;
-}*/
-
 /* ------------------------- SEARCH ----------------------*/
-
-
 .main-head {
   display: block;
   height: 100vh;
@@ -450,6 +383,34 @@
 
 /*----------------------------------Events-----------------------------------*/
 
+/*  ---- EVENT LIST ------- */
+
+.events .events-content {
+    border-right: 1px solid #efefef;
+}
+
+.events .events-image {
+    margin-top: 0 !important;
+}
+
+.events .events-content-button a {
+    font-size: 12px;
+}
+
+.events-pagination .pagination>.active>a {
+    background-color: #00a0dc !important;
+    border-color: #00a0dc !important;
+}
+
+.events-line {
+    border-top: 1px solid #eee;
+}
+
+/*  ---- EVENT LIST ------- */
+
+
+
+
 .events-shadow {
     padding-bottom: 20px;
 }
@@ -699,60 +660,6 @@
   box-shadow: 2px 4px 10px 2px rgba(0,0,0,0.2);
 }
 
-/*.event-about {
-    padding-top: 40px;
-}
-
-.event-about-introduction {
-    padding-bottom: 40px;
-}
-
-.event-about-introduction {
-    text-align: center;
-    font-weight: 300;
-    color: #2e3d49;
-    font-size: 26px;
-    padding-bottom: 15px;
-}
-
-.event-about-objectives .event-about-objectives-title {
-    text-align: center;
-    font-weight: 300;
-    color: #2e3d49;
-    font-size: 26px;
-    padding-bottom: 15px;
-}
-
-.event-about-objectives-list {
-    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-    padding: 20px 20px;
-}
-
-.event-about-objectives .event-about-objectives-list ul {
-    letter-spacing: 0.2px !important;
-    color: #878787 !important;
-    line-height: 30px !important;
-}
-
-.event-about-objectives .event-about-objectives-list ul li:before {
-    content: "\f058";
-    font-family: "Font Awesome 5 Free";
-    color: #0496d0;
-    font-size: 15px;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    position: absolute;
-    left: 30px;
-    margin-top: 1px;
-}
-
-.event-about-objectives .event-about-objectives-list ul li {
-    font-size: 14px;
-    line-height: 24px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-}*/
-
 .event-speaker-unit {
     border: 1px solid #efefef;
     border-radius: 5px;
@@ -771,14 +678,6 @@
     padding-top: 50px;
     text-align: center;
 }
-
-/*.event-speaker-title {
-    text-align: center;
-    font-weight: 300;
-    color: #2e3d49;
-    font-size: 26px;
-    padding-bottom: 15px;
-}*/
 
 .event-speaker-photo {
     height: 150px;
@@ -804,10 +703,6 @@
 .event-speaker-position p {
   font-size: 12px;
 }
-
-/*.event-speaker-social a span {
-    padding: 5px 5px;
-}*/
 
 .event-speaker-description {
     position: absolute;
@@ -856,50 +751,108 @@
     color: #034a66;
 }
 
-.event-register {
-    padding-top: 50px;
-}
-
-.event-register-title {
-    text-align: center;
-    font-weight: 300;
-    color: #2e3d49;
-    font-size: 26px;
-    padding-bottom: 15px;
-}
-
-.event-register-form {
-    border-radius: 5px;
-    padding: 20px 20px;
-    position: relative;
-    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
-}
-
-.event-register-form-label {
-    font-size: 16px;
-    color: #2e3d49;
-    font-weight: 600;
-    margin-bottom: 7px;
-}
-
-.event-register-button {
-    text-align: center;
-}
-
-/*.event-map {
-    padding-top: 50px;
-}
-
-.event-map-title {
-    text-align: center;
-    font-weight: 300;
-    color: #2e3d49;
-    font-size: 26px;
-    padding-bottom: 15px;
-}*/
-
 #map {
-    height: 330px;
+    height: 180px;
+}
+
+.event-register {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  background: url(../images/auditorium-benches-board-207691.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*z-index: -1;*/
+  /*height: 450px;*/
+  overflow: hidden;
+}
+
+.event-register-overley {
+  background-color: rgba(51,51,51,.8);
+  /*z-index: 3;*/
+  height: inherit;
+    width: auto;
+}
+
+.event-register-inner {
+  display: block;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.event-register-box {
+  display: block;
+  /*margin: 0 auto;*/
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 90px;
+  border-radius: 4px;
+}
+
+.event-register-box h1 {
+  color: #039fdc;
+}
+
+.event-register-box p {
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.event-register-box form {
+  padding-bottom: 20px;
+}
+
+.event-register-box .form-group {
+  padding: 0px 50px;
+}
+
+.event-register-box .form-control {
+  transition: box-shadow .3s ease,border .3s ease;
+}
+
+.event-register-box .form-control:focus {
+  border-color: #039fdc;
+  box-shadow: 5px 5px 10px 0 rgba(46,61,73,.05);
+}
+
+.event-register-box .c-btn {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.event-share {
+  text-align: center;
+}
+
+.event-share-box ul {
+  margin-top: 40px;
+}
+
+.event-share-box ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.event-share-box ul li a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+
+.event-share-box ul li a i {
+  font-size: 18px;
+  transform: translateY(60%);
+}
+
+
+.event-share-box ul li a:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
 }
 
 
@@ -911,6 +864,10 @@
 
 
 /*----------------------------------Events-----------------------------------*/
+
+
+
+
 
 
 /*Classes*/
@@ -1319,6 +1276,86 @@ text-align: justify;
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+
+
+
+
+/* ------------------------------ CONTACT PAGE ---------------------------------*/
+
+.contact {
+    padding-top: 40px;
+}
+
+.contact-form .c-form-control {
+    margin: 10px 0px;
+}
+
+textarea.c-form-control {
+    padding: 15px 20px;
+}
+
+.contact-form .btn {
+    padding: 0px 20px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+
+/*.contact-information-list{
+ box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+ padding: 20px 20px;
+}*/
+
+.contact-map #map {
+    height: 450px;
+}
+
+.contact-information-unit {
+    /* border-bottom: 1px solid #efefef;*/
+    height: 120px;
+    text-align: center;
+}
+
+.contact-information-unit i,
+.contact-information-unit h4
+/*, .contact-information-unit p*/
+
+{
+    display: inline-block;
+}
+
+.contact-information-unit i {
+    font-size: 20px;
+    color: #00a0dc;
+    margin-right: 4px;
+}
+
+.contact-information-unit p {
+    color: #7d97ad;
+}
+
+.contact-information .contact-information-social {
+    padding-top: 15px;
+}
+
+.contact-information .contact-information-social a {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #00a0dc;
+    border-radius: 50%;
+}
+
+.contact-information .contact-information-social a i {
+    margin: 0 auto;
+    padding: 8px;
+}
+
+
+/* ------------------------------ CONTACT PAGE ---------------------------------*/
+
 
 
 

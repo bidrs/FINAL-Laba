@@ -48,7 +48,7 @@
 	                <li><a href="#">Services</a></li>
 	                <li><a href="#">Events</a></li>
 	                <li><a href="#">Gallery</a></li>
-	                <li><a href="#">Contact Us</a></li>
+	                <li><a href="contact.php">Contact Us</a></li>
 	            </ul>
 			</nav>
 		</div>

@@ -66,6 +66,31 @@
 
  }
 
+@media screen and (max-width: 500px) {
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event-register-box { margin-bottom: 60px; }
+	.event-register-box h1 { font-size: 25px; }
+	.event-register-box p { font-size: 13px; }
+	.event-register-box .form-group { padding: 0px 40px; }
+	.event-register-box input { height: 42px; font-size: 13px; }
+	.event-register-box textarea { height: 150px; font-size: 13px; }
+	.event-share h4 { font-size: 14px; line-height: 26px; }
+	.event-share-box ul { margin-top: 15px; }
+	.event-share-box ul li a { width: 33px; height: 33px; }
+	.event-share-box ul li a i { font-size: 15px; transform: translateY(50%); }
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+}
+
+@media screen and (max-width: 414px) {
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event-register-box .form-group { padding: 0px 25px; }
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
+}
+
  @media screen and (max-width: 375px) {
 
 
@@ -110,5 +135,12 @@
  	.searching form { max-width: 280px; }
  	.first-section-list { max-width: 280px; }
 	/*  --------------------- INDEX ------------------------*/
+
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.event-register-box p { line-height: 20px; }
+	.event-register-box .form-group { padding: 0px 5px; }
+
+	/*  --------------------- EVENT SINGLE ------------------------*/
 
  }

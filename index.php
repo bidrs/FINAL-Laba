@@ -455,6 +455,11 @@
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
                                                         </p>
                                                      </div>
+                                                     <div class="events-content-button">
+                                                        <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                            Read More
+                                                        </a>
+                                                    </div>
                                                   </div>
                                                </div>
                                                <div class="col-md-3 col-sm-3 ">
@@ -496,6 +501,11 @@
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
                                                         </p>
                                                      </div>
+                                                     <div class="events-content-button">
+                                                        <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                            Read More
+                                                        </a>
+                                                    </div>
                                                   </div>
                                                </div>
                                                <div class="col-md-3 col-sm-3 ">
@@ -537,6 +547,11 @@
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt...
                                                         </p>
                                                      </div>
+                                                     <div class="events-content-button">
+                                                        <a href="#" class="btn c-btn c-bg-blue no-box-shadow">
+                                                            Read More
+                                                        </a>
+                                                    </div>
                                                   </div>
                                                </div>
                                                <div class="col-md-3 col-sm-3 ">

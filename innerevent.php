@@ -58,6 +58,12 @@
 							<p>12:00 pm</p>
 							<p>Monday, August 25, 2018</p>
 						</div>
+						<div class="event-info">
+							<h4 class="title-h4 text-bold"><i class="fas fa-user-circle"></i> Organiser</h4>
+							<p class="text-bold">Laba Pvt LTD</p>
+							<p>4102721, 4102711</p>
+							<p>info@labanepal.com</p>
+						</div>
 						<div class="event-info no-border">
 							<h4 class="title-h4 text-bold"><i class="fas fa-map-marker-alt"></i> Address</h4>
 							<p>Anamnagar, Kathmandu</p>
@@ -160,6 +166,52 @@
 		</div>
 	</div>
 </section>
+
+<section class="event-register">
+	<div class="event-register-overley">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="event-register-inner">
+						<div class="event-register-box">
+							<h1 class="title-h1 text-light">Book Your Seat Today</h1>
+							<p>Fill your details so that we can send you confirmation.</p>
+
+							<form action="">
+                            	<div class="form-group">
+                                	<input class="form-control c-form-control" placeholder="Name*" type="text">
+                                </div>
+                                <div class="form-group">
+                                	<input class="form-control c-form-control" placeholder="Email*" type="text">
+                              	</div>
+                              	<div class="form-group">
+                                	<input class="form-control c-form-control" placeholder="Mobile No*" type="text">
+                              	</div>
+                              	<div class="form-group">
+                              		<textarea class="form-control c-form-control" name="content" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                              	</div>
+                                	<input class="common-btn c-btn c-bg-blue" value="Submit" disabled="" type="submit">
+                            </form>
+						</div>
+
+						<div class="event-share">
+							<h4 class="title-h4 text-w text-light">Your Interest can be interest of your Friends. So feel free to share them.</h4>
+							<div class="event-share-box">
+								<ul>
+									<li><a href="" class="fb-media"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="" class="t-media"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="" class="link-media"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="" class="gp-media"><i class="fab fa-google-plus-g"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 	<?php include 'includes/footer.php'; ?>
 	<script src="js/plugins/jquery.particleground.min.js"></script>
 	<script>
