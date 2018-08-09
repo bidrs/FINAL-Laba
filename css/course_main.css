@@ -380,6 +380,238 @@
 
 /* ------------------------  Services -----------------------------------*/
 
+/* ------------------------ ALL COURSES ---------------------------------*/
+
+
+
+.vendors{
+    padding-top: 30px;
+}
+.flickity-prev-next-button{
+    top: 50% !important;
+}
+.carousel-cell {
+  width: 33.3%; /* full width */
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* ---- grid-item ---- */
+.flickity-button-icon {
+    fill: #02669a !important;
+}
+.p-l-0{
+    padding-left: 0;
+}
+.p-r-0{
+    padding-right: 0;
+}
+.all-courses-title{
+    padding-left: 4px;
+    font-weight: 300;
+    color: #2e3d49;
+}
+.grid-item{
+    padding-top: 0px;
+}
+.first-grid-item .grid-item-content .grid-item-picture img{
+    height: 340px;
+    width: 100%;
+}
+
+
+.top-grid-item img,
+.bottom-grid-item img{
+    height: 163px;
+   width: 100%;
+}
+.bottom-grid-item{
+    padding-top: 175px;
+}
+.grid-item-content{
+    position: relative;
+}
+
+.grid-item-picture{
+    position: absolute;
+   display: block;
+}
+.grid-item-overlay{
+    position: absolute;
+    display: block;
+    width: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5px;
+}
+
+.first-grid-item .grid-item-overlay p{
+    padding-top: 270px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.top-grid-item .grid-item-overlay p{
+    padding-top: 120px;
+     font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+.bottom-grid-item .grid-item-overlay p{
+    padding-top: 120px;
+     font-size: 20px;
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+.carousel-cell-shadow{
+    box-shadow: none;
+}
+.carousel-cell1{
+    border: 1px solid #efefef;
+}
+.popular-courses{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 320px){
+   .carousel-cell {
+        width: 100%; /* full width */
+    }
+
+}
+
+@media screen and (max-width: 480px){
+   .carousel-cell {
+        width: 100%; /* full width */
+    }
+
+}
+
+
+.courses-tabs{
+ text-align: center;
+ padding-top: 80px;
+ padding-bottom: 30px;
+}
+
+.courses-tabs .nav-tabs{
+ text-align: center !important;
+display: inline-block;
+
+ 
+}
+.courses-tabs .tab-content{
+ padding-top: 40px;
+}
+.courses-tabs .nav-tabs>li {
+   background-color: #00a0dc !important;
+}
+.courses-tabs .nav-tabs>li.active>a {
+   color: #02669a !important;
+   cursor: pointer;
+   background-color: #fff;
+   border: 1px solid #00a0dc !important;
+   border-bottom-color: #00a0dc !important;
+}
+.courses-tabs .nav-tabs>li.active>a:hover{
+ background-color: #fff !important;
+}
+.courses-tabs .nav-tabs>li {
+   margin-bottom: 0px !important;
+}  
+.courses-tabs .nav-tabs>li>a {
+   color: #fff !important;
+   margin-right: 0 !important;
+   border-radius: 0 0 0 0 !important;
+   font-size: 13px;
+   letter-spacing: 1.2px;
+}
+.courses-tabs .nav-tabs>li.active>a:after {
+        border-left: 9px solid transparent;
+   border-right: 9px solid transparent;
+   border-top: 10px solid #00a0dc;
+   height: 0px;
+   width: 0px;
+   bottom: 0px;
+   top: 39px;
+   content: " ";
+   left: 50%;
+   margin-left: -10px;
+   position: absolute;
+}
+.courses-tabs .nav>li>a:hover {
+   text-decoration: none;
+   background-color: #1580b8 !important;
+}
+.courses-tabs .nav-tabs>li>a:hover {
+   border-color: #1580b8 #1580b8 #1580b8 !important;
+}
+.courses-tabs .tab-content>.active {
+   display: block !important;
+}
+.courses-tabs .courses-tab-pane{
+   display: none !important;
+}
+.courses-tabs .courses-tab-content{
+   -webkit-box-shadow: 0 0 10px 2px rgba(20,23,28,.1);
+    box-shadow: 0 0 10px 2px rgba(20,23,28,.1);
+    border-radius: 10px;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+.courses-tabs .courses-tab-content .courses-tab-content-detail{
+   padding: 10px 10px 15px 10px;
+}
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-button a{
+   padding: 4px 12px;
+}
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-rating{
+   padding-left: 65px;
+}
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-duration h6,
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-level h6
+{
+   font-size: 12px;
+}
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-duration h6 i,
+.courses-tabs .courses-tab-content .courses-tab-content-detail .courses-tab-content-level h6 i{
+   color: #00a0dc;
+}
+.courses-tabs .courses-tab-filter .btn-group{
+   padding-top: 0px !important;
+}
+.courses-tabs .courses-tab-filter .btn-group .btn{
+   padding-top: 5px !important;
+   padding-bottom: 5px !important;
+   width: 100% !important;
+}
+
+.courses-tabs .courses-tab-filter .btn-group .btn i{
+   float: right;
+   padding-top: 5px;
+   color: #00a0dc;
+}
+.courses-tabs .courses-tab-filter .dropdown-menu{
+   padding: 4px 14px !important;
+}
+
+.tab-pagination .pagination>.active>a{
+   background-color: #00a0dc;
+   border-color: #00a0dc;
+}
+
+
+/* --------------------------- ALL COURSES ------------------------------------*/
+
+
+
+
 
 /*----------------------------------Events-----------------------------------*/
 
@@ -1346,73 +1578,122 @@ text-align: justify;
 /* ------------------------------ CONTACT PAGE ---------------------------------*/
 
 .contact {
-    padding-top: 40px;
+    margin: 50px 0;
 }
 
-.contact-form .c-form-control {
-    margin: 10px 0px;
+.contact h2 {
+  margin-bottom: 40px;
 }
 
-textarea.c-form-control {
-    padding: 15px 20px;
+.contact h3 {
+  color: #039fdc;
 }
 
-.contact-form .btn {
-    padding: 0px 20px;
-    margin-bottom: 30px;
-    margin: 0 auto;
+.contact p {
+  min-height: 55px;
+}
+
+.contact-information-unit:after {
+  content: " ";
+  clear: both;
+}
+
+.contact-info-list-top {
+  display: block;
+  padding: 0 106px 0 12px;
+  margin-bottom: 25px;
+}
+
+.contact-info-list-top .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #efefef;
+}
+
+.contact-info-unit-icon  {
+  width: 40px;
+  float: left;
+  display: block;
+  padding-top: 6px;
 }
 
 
-/*.contact-information-list{
- box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
- padding: 20px 20px;
-}*/
+
+.contact-info-unit-icon  i {
+  font-size: 24px;
+  color: #039fdc;
+}
+
+.contact-info-unit-text {
+  width: calc( 100% - 30px - 15px);
+  float: left;
+  display: block;
+}
+
+.contact-info-unit-text p {
+  font-size: 13px;
+  line-height: 20px;
+}
 
 .contact-map #map {
     height: 450px;
 }
 
-.contact-information-unit {
-    /* border-bottom: 1px solid #efefef;*/
-    height: 120px;
-    text-align: center;
+.contact-form .c-btn {
+  padding: 0 30px;
 }
 
-.contact-information-unit i,
-.contact-information-unit h4
-/*, .contact-information-unit p*/
-
-{
-    display: inline-block;
+.contact-form .c-form-control:focus {
+  box-shadow: none;
 }
 
-.contact-information-unit i {
-    font-size: 20px;
-    color: #00a0dc;
-    margin-right: 4px;
+
+.contact-form textarea {
+  padding-top: 15px;
+  padding-bottom: 15px
 }
 
-.contact-information-unit p {
-    color: #7d97ad;
+
+.contact-share-box ul {
+  margin-top: 18px;
 }
 
-.contact-information .contact-information-social {
-    padding-top: 15px;
+.contact-share-box ul li {
+  display: inline-block;
+  padding: 0 5px;
+  text-align: center;
 }
 
-.contact-information .contact-information-social a {
-    display: inline-block;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    border: 1px solid #00a0dc;
-    border-radius: 50%;
+.contact-share-box ul li a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
 }
 
-.contact-information .contact-information-social a i {
-    margin: 0 auto;
-    padding: 8px;
+
+.contact-share-box ul li a i {
+  font-size: 18px;
+  transform: translateY(60%);
+}
+
+
+.contact-share-box ul li a:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+}
+
+.form-container {
+  display: block;
+  border-left: 1px solid #efefef;
+  margin-left: -20px;
+  padding-left: 45px;
+}
+
+.map {
+  margin-bottom: -50px;
 }
 
 

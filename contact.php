@@ -6,76 +6,85 @@
 <section class="contact">
 	<div class="container">
 		<div class="row">
-			<h2 class="text-center">Contact Us</h2>
-			<div class=" col-md-6">
-				<div>
-					
-					<h3 class="title-h2 text-light text-center">Send a Message</h3>
-				</div>
-				
-				<form action="#" class="contact-form">
-				  <div class="form-group ">
-				  <div >
-				    <input class="form-control c-form-control no-box-shadow no-focus" type="text" placeholder="Your Name">
-				  </div>
-				  <div >
-				    <input class="form-control c-form-control no-box-shadow  no-focus"  type="email" placeholder="Your Email">
-				  </div>
-				  <div >
-				  	 <input class="form-control c-form-control no-box-shadow no-focus"  type="text" placeholder="Your Number">
-				  </div>
-				  <div >
-				  	 <textarea rows="4" cols="50"  class="form-control c-form-control no-box-shadow no-focus"  type="text" placeholder="Your Message"></textarea>
-				  </div>
-				  <div class="col-md- text-center">
-				  	<button class="btn c-btn c-bg-blue common-btn  text-center" >
-				  		Submit
-				  	</button>
-				  </div>
-				</div>
-				</form>
-			
-			
-			</div>
-			<div class="col-md-6">
+			<h2 class="title-h2 text-light  header-color text-center">Our Details</h2>
+			<div class="col-md-6 col-sm-12 col-xs-12">
 				<div >
 					<div class="contact-information">
-					<h3 class="title-h2 text-light text-center">Contact Info</h3>
-					<div class="contact-information-list col-md-12">
-						<div class=" col-md-6">
-							<div class="contact-information-unit">
-								<i class="fas fa-location-arrow"></i>
-								<h4 >Address</h4>
-								<p>Anamnagar - 32 Kathmandu, Nepal</p>
+					<h3 class="title-h3 text-light">Contact Info</h3>
+					<p>Welcome to our Website. We are glad to have you around.</p>
+
+					<div class="row">
+						<div class="contact-information-list">
+							<div class=" col-md-6 col-sm-6 col-xs-6">
+								<div class="contact-information-unit">
+									<div class="contact-info-unit-icon">
+										<i class="fas fa-map-marker-alt"></i>
+									</div>
+
+									<div class="contact-info-unit-text">
+										<h4 class="title-h4 text-bold">Address</h4>
+										<p>Anamnagar - 32 Kathmandu, Nepal</p>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class=" col-md-6">
-							<div class="contact-information-unit">
-								<i class="far fa-envelope"></i>
-								<h4 >Email</h4>
-								<p>info@labanepal.com</p>
+
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div class="contact-information-unit">
+									<div class="contact-info-unit-icon">
+										<i class="fas fa-envelope"></i>
+									</div>
+
+									<div class="contact-info-unit-text">
+										<h4 class="title-h4 text-bold">Email</h4>
+										<p>info@labanepal.com</p>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="contact-information-unit">
-								<i class="fas fa-phone"></i>
-								<h4 >Phone</h4>
-								<p>+977-1-4102721, 4102722, 4244804</p>
+
+							<div class="clearfix"></div>
+						    <div class="contact-info-list-top"><span class="line"></span></div>
+
+							<div class=" col-md-6 col-sm-6 col-xs-6">
+								<div class="contact-information-unit">
+									<div class="contact-info-unit-icon">
+										<i class="fas fa-phone"></i>
+									</div>
+
+									<div class="contact-info-unit-text">
+										<h4 class="title-h4 text-bold">Phone</h4>
+										<p>+977-1-4102721, 4102722, 4244804</p>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="contact-information-unit col-md-6">
-							<div class="contact-information-unit">
-								<i class="fas fa-clock"></i>
-								<h4 >Opening Hours</h4>
-								<p>10 AM - 5 PM</p>
+
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<div class="contact-information-unit">
+									<div class="contact-info-unit-icon">
+										<i class="fas fa-clock"></i>
+									</div>
+
+									<div class="contact-info-unit-text">
+										<h4 class="title-h4 text-bold">Opening Hours</h4>
+										<p>10 AM - 5 PM</p>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="contact-information-unit contact-information-social">
-								<a href="#"><i class="fab fa-facebook-f"></i> </a>
-								<a href="#"><i class="fab fa-twitter"></i>  </a>
-								<a href="#"><i class="fab fa-linkedin-in"></i>  </a>
-								<a href="#"><i class="fab fa-google-plus-g"></i>  </a>
+
+							<div class="clearfix"></div>
+						    <div class="contact-info-list-top"><span class="line"></span></div>
+							
+							
+							
+							<div class="col-md-12 col-sm-12 col-xs-7 col-xs-offset-3">
+								<div class="contact-share-box">
+									<h4 class="title-h4 text-light">Follow Us</h4>
+									<ul>
+										<li><a href="" class="fb-media"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="" class="t-media"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="" class="link-media"><i class="fab fa-linkedin-in"></i></a></li>
+										<li><a href="" class="gp-media"><i class="fab fa-google-plus-g"></i></a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -83,18 +92,53 @@
 				</div>
 				
 			</div>
-			<div class="col-md-12">
-				<div class="contact-map">
-					<h3 class="title-h2 text-light text-center">Location on Map</h3>
-					<div id="map" >
+
+
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="form-container">
+					<div>
+						<h3 class="title-h3 text-light">Send a Message</h3>
+						<p>Your email address will not be published. Required fields are marked.</p>
 					</div>
-				</div>
-				
+					
+					<!-- <form action="#" class="contact-form"> -->
+					<div class="contact-form">
+						<form action="">
+		                	<div class="form-group">
+		                    	<input class="form-control c-form-control" placeholder="Name*" type="text">
+		                    </div>
+		                    <div class="form-group">
+		                    	<input class="form-control c-form-control" placeholder="Email*" type="text">
+		                  	</div>
+		                  	<div class="form-group">
+		                    	<input class="form-control c-form-control" placeholder="Mobile No*" type="text">
+		                  	</div>
+		                  	<div class="form-group">
+		                  		<textarea class="form-control c-form-control" name="content" id="" cols="30" rows="6" placeholder="Message"></textarea>
+		                  	</div>
+		                    	<input class="common-btn c-btn c-bg-blue" value="Submit" disabled="" type="submit">
+		                </form>
+	                </div>
+                </div>
+				<!-- </form> -->
+			
+			
 			</div>
+			
+
+			
+				
 		</div>
 	</div>
 </section>
 
+
+<section class="map">
+	<div class="contact-map">
+		<div id="map">
+		</div>
+	</div>
+</section>
 <?php include 'includes/footer.php'; ?>
 
 		<script>

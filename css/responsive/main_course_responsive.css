@@ -55,6 +55,18 @@
 
 	/*  --------------------- ALL EVENTS ------------------------*/
 
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	.contact-info-list-top { padding: 0 23px 0 12px; }
+	.contact-share-box {position: relative; top: 572px;}
+	.contact-share-box h4 { padding-left: 76px; }
+	.form-container:before { content: " "; clear: both; }
+	.form-container {position: relative; border-left: 0; margin-top: -70px; margin-left: 0; padding-left: 0; border-bottom: 1px solid #efefef; padding-bottom: 20px;}
+	.map { margin-top: 120px; }
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
+
 }
 
  @media screen and (max-width: 667px) {
@@ -92,6 +104,16 @@
 
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	.contact-information h3, .form-container h3 { font-size: 20px; text-align: center; }
+	.contact-information p, .form-container p { font-size: 12px; text-align: center; }
+	.contact-info-unit-text p { text-align: left; }
+	.form-container .c-btn { margin: 0 auto; }
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
  }
 
  @media screen and (max-width: 568px) {
@@ -100,6 +122,23 @@
 	.event-text { padding-top: 45px; }
 	.event-text h1 { line-height: 34px; padding-bottom: 15px; }
 	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	
+	.contact-info-unit-icon { padding-top: 9px; }
+	.contact-info-unit-icon i { font-size: 20px; }
+	.contact-share-box { top: 555px; }
+	.contact-share-box h4 { padding-left: 60px; font-size: 14px; }
+	.contact-share-box ul { padding-left: 20px; }
+	.contact-share-box ul li { padding: 0px 2px; }
+	.contact-share-box ul li a { width: 30px; height: 30px; }
+	.contact-share-box ul li a i { font-size: 13px; transform: translateY(38%); }
+	.contact-map #map { height: 227px; }
+
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
 
 
  }
@@ -141,6 +180,22 @@
 	/*  --------------------- EVENT SINGLE ------------------------*/
 
 
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
+	.contact-info-unit-icon { width: 20px; }
+	.contact-info-unit-icon i { font-size: 15px; }
+	.contact-info-unit-text { width: calc( 100% - 21px); }
+	.contact-info-unit-text h4 { font-size: 14px; }
+	.contact-share-box h4 { padding-left: 40px; }
+	.contact-share-box ul { padding-left: 0; }
+	.contact-form input { height: 42px; }
+	.contact-form input, .contact-form textarea {  font-size: 13px; }
+	.contact-share-box {top: 526px;}
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
+
 }
 
  @media screen and (max-width: 375px) {
@@ -173,6 +228,13 @@
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
 
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	.contact-info-unit-icon { width: 100%; text-align: center;}
+	.contact-info-unit-text { width: 100%; text-align: center; }
+	.contact-info-unit-text p { text-align: center; }
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
 
  }
 
@@ -195,6 +257,14 @@
 
 	/*  --------------------- ALL EVENTS ------------------------*/
 
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	.contact-share-box h4 { padding-left: 30px; }
+	.contact-share-box ul li a { width: 27px; height: 27px; }
+	.contact-share-box ul li a i { font-size: 12px; transform: translateY(23%); }
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
+
  }
 
 @media screen and (max-width: 320px) {
@@ -213,5 +283,12 @@
 	.event-register-box .form-group { padding: 0px 5px; }
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
+	/* ----------------------- CONTACT PAGE ------------------------*/
+	.contact-share-box h4 { padding-left: 25px; }
+	.contact-share-box ul li { padding: 0; }
+	/* ----------------------- CONTACT PAGE ------------------------*/
+
 
  }
