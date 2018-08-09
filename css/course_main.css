@@ -385,9 +385,9 @@
 
 /*  ---- EVENT LIST ------- */
 
-.events .events-content {
+/*.events .events-content {
     border-right: 1px solid #efefef;
-}
+}*/
 
 .events .events-image {
     margin-top: 0 !important;
@@ -402,14 +402,29 @@
     border-color: #00a0dc !important;
 }
 
-.events-line {
+/*.events-pagination:after {
+  content: "";
+  clear: both;
+}*/
+
+
+/*.events-line {
     border-top: 1px solid #eee;
-}
+}*/
 
 /*  ---- EVENT LIST ------- */
 
 
-
+.events-list-container {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  height: 660px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 3px 4px 15px 0 rgba(0,0,0,0.2);
+  box-shadow: 3px 4px 15px 0 rgba(165, 161, 161, 0.2);
+}
 
 .events-shadow {
     padding-bottom: 20px;
@@ -429,9 +444,24 @@
     padding: 20px 20px;
 }
 
+.event-sep {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0 16px;
+}
+
+.events-unit span.line{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 1px;
+  background-color: #efefef;
+}
+
 .events .events-date {
-    border-right: 1px solid #efefef;
-    margin-top: -5px;
+    /*border-right: 1px solid #efefef;*/
+    /*min-height: 127px;*/
+    display: block;
 }
 
 .events .events-unit .events-date .events-date-day p,
@@ -441,17 +471,25 @@
 }
 
 .events .events-unit .events-date .events-date-day p {
-    font-size: 72px;
+    font-size: 55px;
     font-weight: 700;
-    line-height: 73px;
+    line-height: 43px;
     margin-top: 0;
 }
 
 .events .events-unit .events-date .events-date-month p {
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: 700;
-    line-height: 25px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+}
+
+.events-content {
+  border-right: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .events .events-content .events-content-title h3 {
@@ -482,24 +520,48 @@
     padding-right: 10px;
 }
 
-.events-content-information .events-content-information-time i,
+.events-content-information-time i,
+.events-content-information-location i {
+  font-size: 11px;
+}
+
 .events-content .events-content-information .events-content-information-time span,
 .events-content .events-content-information .events-content-information-time p,
-.events-content-information .events-content-information-location i,
 .events-content .events-content-information .events-content-information-location span,
-.events-content .events-content-information .events-content-information-location p,
-.events .events-content .events-content-subtitle p {
+.events-content .events-content-information .events-content-information-location p {
     font-size: 13px;
 }
 
+.events .events-content .events-content-subtitle p {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.events-content-information-time span, .events-content-information-location span{
+  color: #7d97ad;
+}
+
+.events-content-subtitle {
+  padding-top: 5px;
+  /*padding-bottom: px;*/
+}
+
 .events .events-content .events-content-subtitle p{
- line-height: 20px;
+  line-height: 24px;
 }
 .events .events-image{
-  height: 104px;
-  width: 100%;
-  overflow: hidden;
-  margin-top: 5px;
+    height: 125px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 3px 6px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 3px 6px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 3px 6px 0 rgba(0,0,0,0.2);
+}
+
+.events-pagination {
+  margin-top: 58px;
 }
 
 

@@ -1,4 +1,21 @@
+@media screen and (max-width: 1199px) {
+	/*  --------------------- EVENT SINGLE ------------------------*/
+	.events .events-unit .events-date .events-date-day p { font-size: 40px;	}
+	.events .events-unit .events-date .events-date-month p { font-size: 10px; line-height: 9px; }
+	.events .events-content .events-content-subtitle p { font-size: 13px; }
+	/*  --------------------- EVENT SINGLE ------------------------*/
+}
+
+
 @media screen and (max-width: 991px) {
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { /*height: 1416px;*/ }
+	.events .events-unit { padding: 10px 10px; }
+	.events .events-image { height: 98px; }
+	.events .events-content .events-content-subtitle p { font-size: 13px; line-height: 20px }
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	.event-content-space-1 { border-bottom: 1px solid #efefef; border-right: 0; padding-right: 0; padding-bottom: 25px; }
 	
@@ -25,6 +42,20 @@
 	/*  --------------------- INDEX ------------------------*/
  }
 
+@media screen and (max-width: 766px) {
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { margin: 0 20px; height: 1668px; }
+	.events .events-unit .events-date .events-date-day p, .events .events-unit .events-date .events-date-month p { float: left; display: block;}
+	.events .events-unit .events-date .events-date-day p { font-size: 80px; }
+	.events .events-unit .events-date .events-date-month p { line-height: 85px; padding-left: 12px; font-size: 16px; font-weight: 700; }
+	.events .events-unit .events-date .events-date-month p:after { content: "", clear: both; }
+	.events-content { border-right: 0; border-left: 0; padding-left: 0; padding-right: 0; position: relative; top: 240px;}
+	.events .events-image { height: 241px; position: relative; top: -152px;}
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+
+}
 
  @media screen and (max-width: 667px) {
 
@@ -41,6 +72,13 @@
 	.first-section-list ul li a {font-size: 11px;}
 	.first-section-list { max-width: 370px; }
 	/*  --------------------- INDEX ------------------------*/
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { height: 1730px; }
+	.events .events-image {  top: -173px;}
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+
 
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
@@ -83,6 +121,20 @@
 }
 
 @media screen and (max-width: 414px) {
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { height: 1338px; }
+	.events .events-unit { padding: 9px 20px; }
+	.events .events-unit .events-date .events-date-day p { font-size: 60px; }
+	.events .events-unit .events-date .events-date-month p { line-height: 76px; padding-left: 9px; font-size: 13px; }
+	.events-content { top: 152px; }
+	.events .events-content .events-content-subtitle p { line-height: 22px; font-size: 13px;}
+	.event-sep { margin-top: 23px; margin-bottom: 0; }
+	.events .events-image { height: 154px; }
+	.events-pagination { margin-top: 30px;} 
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+
+
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	.event-register-box .form-group { padding: 0px 25px; }
 
@@ -101,6 +153,18 @@
  	
 
 	/*  --------------------- INDEX ------------------------*/
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { height: 1278px; }
+	.events .events-unit { padding: 8px 8px; }
+	.events-content { top: 140px; }
+	.events .events-image { top: -178px; }
+	.event-sep { margin-top: 5px; }
+	.events-pagination { margin-top: 15px;  }
+
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	#event-countdown span { font-size: 30px; }
@@ -123,6 +187,13 @@
  	
 
 	/*  --------------------- INDEX ------------------------*/
+
+
+	/*  --------------------- ALL EVENTS ------------------------*/
+	.events-list-container { height: 1416px; }
+	.events .events-image { top: -220px; }
+
+	/*  --------------------- ALL EVENTS ------------------------*/
 
  }
 
