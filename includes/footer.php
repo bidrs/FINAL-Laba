@@ -1,165 +1,161 @@
 <section class="subscription">
-    <div class="subscription-overlay">
-       <div class="container">
-       <div class="row">
-          <div class="subscription-wrapper">
-             <div class="col-md-6 col-xs-12">
-                <h3 class="subscription-title">Sign Up for News and Offers</h3>
-                <p class="subscription-subtitle">Subscribe for the latest news and great deals we offer</p>
-             </div>
-
-            <div class="col-md-5 col-xs-12 col-md-offset-1">
-              <!-- <div class="col-md-9 col-md-offset-3"> -->
-                <div class="subscription-form">
-                  <form action="" class="">
-                    <div class="input-group">
-                      <input type="email" class="form-control c-form-control" placeholder="Your Email">
-                      <div class="input-group-btn">
-                        <button class="common-btn c-btn" type="submit">
-                          Subscribe
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              <!-- </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
- <section class="footer1">
-   <div class="container">
+   <div class="subscription-overlay">
+      <div class="container">
       <div class="row">
-         <div class="footer1-inner">
-          
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="footer-item">
-               <div class="footer-title">
-                  <h6 class="title-h6">Featured Courses</h6>
-               </div>
-               <div class="footer-content-list">
-                  <ul>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Software Development</a></li>
-                     <li><a href="#">Network Administration</a></li>
-                     <li><a href="#">Database Administration and Development</a></li>
-                     <li><a href="#">Virtualization</a></li>
-                     <li><a href="#">Information Systems and Security Management</a></li>
-                     <li><a href="#">IT Service and Project Managemant</a></li>
-                     <li><a href="#">Security</a></li>
-                     <li><a href="#">View All</a></li>
+         <div class="subscription-wrapper">
+            <div class="col-md-6 col-xs-12">
+             <div class="subscription-newsletter-image clearfix">
+               <img src="images/svg/newsletter.png">
+             </div>
+             <div class="subscription-text clearfix">
+               <h3 class="subscription-title">Sign Up for News and Offers</h3>
+               <p class="subscription-subtitle">Subscribe for the latest news and great deals we offer</p>
+             </div>
+            </div>
 
-                  </ul>
-                  </div>
+           <div class="col-md-5 col-xs-12 col-md-offset-1">
+             <!-- <div class="col-md-9 col-md-offset-3"> -->
+               <div class="subscription-form">
+                 <form action="" class="">
+                   <div class="input-group">
+                     <input type="email" class="form-control c-form-control" placeholder="Your Email">
+                     <div class="input-group-btn">
+                       <button class="common-btn c-btn" type="submit">
+                         Subscribe
+                       </button>
+                     </div>
+                   </div>
+                 </form>
                </div>
-            </div>
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="footer-item move-footer">
-               <div class="footer-title">
-                  <h6 class="title-h6">Certification</h6>
-               </div>
-                <div class="footer-content-list">
-                  <ul>
-                     <li><a href="#">Microsoft</a></li>
-                     <li><a href="#">CISCO</a></li>
-                     <li><a href="#">EC-Council</a></li>
-                     <li><a href="#">ITIL</a></li>
-                      <li><a href="#">PRINCE2</a></li>
-                     <li><a href="#">Oracle</a></li>
-                     <li><a href="#">Prometric</a></li>
-                     <li><a href="#">Element K</a></li>
-                     <li><a href="#">View All</a></li>
-                  </ul>
-               </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-12 col-xs-12">
-              <div class="footer-item move-footer">
-               <div class="footer-title">
-                  <h6 class="title-h6">Featured Courses</h6>
-               </div>
-                <div class="footer-content-list">
-                  <ul>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                      <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">Programming</a></li>
-                     <li><a href="#">View All</a></li>
-                  </ul>
-               </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-12 col-xs-12">
-               <div class="footer-item move-footer">
+             <!-- </div> -->
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</section>
+
+
+<section class="footer1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-item">
                   <div class="footer-title">
-                    <h6 class="title-h6">Company</h6>
+                    <h6 class="title-h6">LABA Nepal Pvt. Ltd.</h6>
+                  </div>
+                  <div class="p-t-2 footer-description">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis
+                    </p>
+                  </div>
+                  <div class="footer-social">
+                    <ul>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+                       <li><a href="#"><i class="fab fa-twitter"></i>  </a></li>
+                       <li><a href="#"><i class="fab fa-linkedin-in"></i>  </a></li>
+                       <li><a href="#"><i class="fab fa-google-plus-g"></i>  </a></li>
+                    </ul>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer-item">
+                  <div class="footer-title">
+                    <h6 class="title-h6">Featured Courses</h6>
                   </div>
                   <div class="footer-content-list">
                     <ul>
-                      <li><a href="#">About</a></li>
-                       <li><a href="#">Events</a></li>
-                       <li><a href="#">Courses</a></li>
-                       <li><a href="#">Contact</a></li>
-                        <li><a href="#">Feedback</a></li>
-                       <li><a href="#">Help</a></li>
+                      <li><a href="#">Programming</a></li>
+                      <li><a href="#">Software Development</a></li>
+                      <li><a href="#">Network Administration</a></li>
+                      <li><a href="#">Database Administration</a></li>
+                      <li><a href="#">View All</a></li>
                     </ul>
                   </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-item move-footer">
+                  <div class="footer-title">
+                    <h6 class="title-h6">Certification</h6>
+                  </div>
+                  <div class="footer-content-list">
+                    <ul>
+                      <li><a href="#">Microsoft</a></li>
+                      <li><a href="#">CISCO</a></li>
+                      <li><a href="#">EC-Council</a></li>
+                      <li><a href="#">ITIL</a></li>
+                      <li><a href="#">View All</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-item move-footer">
+                  <div class="footer-title">
+                    <h6 class="title-h6">Company</h6>
+                  </div>
+                  <div class="footer-content-list last-list">
+                    <ul>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Events</a></li>
+                      <li><a href="#">Courses</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Help</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
-         </div>
-      </div>
-      </div>
-   </div>
-</section>
-<section class="footer2">
-   <div class="container">
-      <div class="row">
-         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="accredit">
-               <span>PMP® & CAPM® are registered marks of PMI.</span>
-               <span>ITIL® & PRINCE2® is registered trademark of AXELOS Limited.</span>
-               <span>The Swirl logoTM is a trade mark of AXELOS Limited.</span>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-        <div class="foot-last">
-
-          <div class="col-md-6 col-xs-12">
-            <ul>
-               <li>© 2011–2018 LabaNepal Pvt Ltd.</li>
-               <li><a href="">Legal & Privacy</a> </li>
-               <li><a href="">Term and Conditon</a> </li>
-               <li></li>
-            </ul>
-          </div>
-          <div class="col-md-6 col-xs-8 col-xs-offset-1 footer2-icons">
-            <ul>
-               <li>Follow us at:</li>
-               <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
-               <li><a href="#"><i class="fab fa-twitter"></i>  </a></li>
-               <li><a href="#"><i class="fab fa-linkedin-in"></i>  </a></li>
-               <li><a href="#"><i class="fab fa-google-plus-g"></i>  </a></li>
-            </ul>
           </div>
         </div>
       </div>
       </div>
-   </div>
+  </div>
+</div>
+</section>
+
+
+<section class="footer2">
+  <div class="container">
+     <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+           <div class="accredit">
+              <span>PMP® & CAPM® are registered marks of PMI.</span>
+              <span>ITIL® & PRINCE2® is registered trademark of AXELOS Limited.</span>
+              <span>The Swirl logoTM is a trade mark of AXELOS Limited.</span>
+           </div>
+        </div>
+     </div>
+     <div class="row">
+       <div class="foot-last text-center">
+         <div class="col-md-12 col-sm-12 col-xs-12">
+           <ul>
+              <li>© 2011–2018 LabaNepal Pvt Ltd.</li>
+              <li><a href="">Legal & Privacy</a> </li>
+              <li><a href="">Term and Conditon</a> </li>
+              <li></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     </div>
+  </div>
 </section>
 
 
 
 
 
-<a href="#" id="scroll" style="display: none;"><span></span></a>
+                <a href="#" id="scroll" style="display: none;"><span></span></a>
                </body>
                <!-- jQuery library -->
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -227,6 +223,7 @@
                <!-- Latest compiled JavaScript -->
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+
                <!-- STICKY NAVIGATION -->
                <script src="js/plugins/float-panel.js"></script>
 
@@ -261,33 +258,37 @@
                     });
                 </script>
 
+
+
+
+
                 <!-- Flickity -->
                 <script type="text/javascript" src="js/plugins/flickity.pkgd.min.js"></script>
                <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js'></script> -->
                 <script>
 
 
-                  $('.tab-pane').flickity({
-                    imagesLoaded: false, 
-                    groupCells: "100%", 
-                    dragThreshold : 3,
-                    adaptiveHeight: true,
-                    groupCells: false, 
-                    cellAlign: "left",
-                    wrapAround: true,
-                    prevNextButtons: true,
-                    percentPosition: true,
-                    pageDots: false, 
-                    rightToLeft: false, 
-                    autoPlay : false
-                  });
+                  // $('.tab-pane').flickity({
+                  //   imagesLoaded: false, 
+                  //   groupCells: "100%", 
+                  //   dragThreshold : 3,
+                  //   adaptiveHeight: true,
+                  //   groupCells: false, 
+                  //   cellAlign: "left",
+                  //   wrapAround: true,
+                  //   prevNextButtons: true,
+                  //   percentPosition: true,
+                  //   pageDots: false, 
+                  //   rightToLeft: false, 
+                  //   autoPlay : false
+                  // });
 
-                  $('.nav-tabs').on( 'shown.bs.tab', 'a', function( event ) {
-                    // get tab pane
-                    var selector = event.target.getAttribute('href');
-                    // trigger resize on tab pane
-                    $( selector ).flickity('resize');
-                  });
+                  // $('.nav-tabs').on( 'shown.bs.tab', 'a', function( event ) {
+                  //   // get tab pane
+                  //   var selector = event.target.getAttribute('href');
+                  //   // trigger resize on tab pane
+                  //   $( selector ).flickity('resize');
+                  // });
 
                   $('.all-course-main-carousel').flickity({
                     // options
@@ -302,12 +303,12 @@
                    $('.teachers-main-carousel').flickity({
                     // options
                     draggable: true,
-                   
-                   fullscreen: true,
+                    fullscreen: false,
                     wrapAround: true,
                     selectedAttraction: 0.01,
-                  friction: 0.15,
-                   pageDots: false
+                    groupCells: "50%",
+                    friction: 0.15,
+                    pageDots: false
                   });
 
                   $('.main-carousel').flickity({
@@ -333,7 +334,9 @@
                     autoPlay : false
                   });
                 </script>
-               
+              
+
+              
 
                <script type="text/javascript" src="js/aos.js"></script>
 
@@ -351,8 +354,39 @@
                           slideSpeed:1000,
                           autoPlay:true
                       });
+
+                      $("#tutors").owlCarousel({
+                          items:4,
+                          itemsDesktop:[1000,2],
+                          itemsDesktopSmall:[990,2],
+                          itemsTablet:[768,2],
+                          pagination:true,
+                          navigation:false,
+                          navigationText:["",""],
+                          slideSpeed:1000,
+                          autoPlay:false
+                      });
                   });
                </script>
+
+               <!-- COURSES -->
+                <script>
+                   $(".courses-slider").each(function(){
+                   $(this).owlCarousel({
+                     items:4,
+                     itemsDesktop:[1000,4],
+                     itemsDesktopSmall:[990,4],
+                     itemsTablet:[768,3],
+                     pagination:false,
+                     navigation:true,
+                     navigationText:["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
+                     slideSpeed:1000,
+                     autoPlay:true
+                   });
+                 });
+                </script>
+
+                
                <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
                <script type="text/javascript" src="js/plugins/jquery.scrollbox.min.js"></script>
                <script type="text/javascript">
