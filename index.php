@@ -78,7 +78,7 @@
 
             <section class="services courses-tabs" id="services">
               <div class="container">
-                <h2 class="title-h2 text-light m-b-3">Top Courses</h2>
+                <h2 class="title-h2 text-normal m-b-3">Top Courses</h2>
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Programming</a></li>
                     <li role="presentation"><a href="#menu1" aria-controls="menu1" role="tab" data-toggle="tab">Microsoft</a></li>
@@ -90,259 +90,235 @@
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-b-bg">Beginner Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
+                                    <div class="courses-tab-content-duration">
+                                      Duration: 20 Hrs
+                                    </div>
+
+                                    <div class="courses-tab-content-detail-rate">
                                         <div class="small-active-star star-no-float">
                                             <div class="small-star star-five"></div>
                                         </div>
-                                        <div class="star-percentage">15</div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
-                                    <br>
-                                    <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
-                                    </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
-                                    </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-b-bg">Beginner Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
+                                    <div class="courses-tab-content-duration">
+                                      Duration: 20 Hrs
+                                    </div>
+
+                                    <div class="courses-tab-content-detail-rate">
                                         <div class="small-active-star star-no-float">
                                             <div class="small-star star-five"></div>
                                         </div>
-                                        <div class="star-percentage">15</div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
-                                    <br>
-                                    <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
-                                    </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
-                                    </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="menu1">
@@ -350,262 +326,237 @@
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-b-bg">Beginner Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
+                                    <div class="courses-tab-content-duration">
+                                      Duration: 20 Hrs
+                                    </div>
+
+                                    <div class="courses-tab-content-detail-rate">
                                         <div class="small-active-star star-no-float">
                                             <div class="small-star star-five"></div>
                                         </div>
-                                        <div class="star-percentage">15</div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
-                                    <br>
-                                    <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
-                                    </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
-                                    </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-b-bg">Beginner Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
+                                    <div class="courses-tab-content-duration">
+                                      Duration: 20 Hrs
+                                    </div>
+
+                                    <div class="courses-tab-content-detail-rate">
                                         <div class="small-active-star star-no-float">
                                             <div class="small-star star-five"></div>
                                         </div>
-                                        <div class="star-percentage">15</div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
-                                    <br>
-                                    <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
-                                    </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
-                                    </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-i-bg">Intermediate Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-three"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="courses-tab-content">
                                 <div class="courses-tab-content-image">
                                     <img class="courses-tab-content-image" src="images/1.jpg">
+                                    <div class="level-tag">
+                                      <span class="level-e-bg">Expert Level</span>
+                                    </div>
                                 </div>
                                 <div class="courses-tab-content-detail">
                                     <h6 class="title-h6 text-center text-black">Microsoft Trainning</h6>
-                                    <div class="carousel-cell-content-rating courses-tab-content-rating">
-                                        <div class="small-active-star star-no-float">
-                                            <div class="small-star star-five"></div>
-                                        </div>
-                                        <div class="star-percentage">15</div>
-                                    </div>
-                                    <br>
                                     <div class="courses-tab-content-duration">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-clock"></i>
-                                                    Duration: 20hrs
-                                                    </h6>
+                                      Duration: 20 Hrs
                                     </div>
-                                    <div class="courses-tab-content-level">
-                                        <h6 class="title-h6 text-normal text-center">
-                                                    <i class="fas fa-chess"></i>
-                                                    Level: Beginner
-                                                    </h6>
+
+                                    <div class="courses-tab-content-detail-rate">
+                                        <div class="small-active-star star-no-float">
+                                            <div class="small-star star-four"></div>
+                                        </div>
+                                        <div class="star-percentage">(15)</div>
+                                        <div class="clearfix"></div>
                                     </div>
+                                    
                                     <div class="courses-tab-content-button">
                                         <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
-                                                        Read More
-                                                    </a>
+                                            Read More
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="courses-slider-more-btn text-right">
+                    <div class="courses-slider-more-btn text-left">
                         <a href="#" class="btn c-btn c-bg-blue">View More </a>
                     </div>
                 </div>
@@ -615,7 +566,7 @@
             <section class="core-feature">
               <div class="container">
                   <div class="row">
-                      <h2 class="title-h2 text-light m-b-3">Our Core Features</h2>
+                      <h2 class="title-h2 text-normal m-b-3">Our Core Features</h2>
                       <div class="col-md-4 col-sm-6 col-xs-12">
                           <div class="other-services-unit m-b-3 p-1">
                               <div class="other-services-unit-icon">
