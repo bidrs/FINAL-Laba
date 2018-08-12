@@ -36,3 +36,5 @@
       <link rel="stylesheet" type="text/css" href="css/responsive/footer_responsive.css">
       <link rel="stylesheet" type="text/css" href="css/responsive/main_course_responsive.css">
       <link rel="stylesheet" type="text/css" href="css/responsive/main_responsive.css">
+
+      

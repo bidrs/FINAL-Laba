@@ -179,13 +179,15 @@
 
 /*.....................Other Services.....................*/
 
-.other-services {
+.core-feature {
     text-align: center;
+    padding: 50px 0;
+    background-color: #edfafd;
 }
 
-.other-services .other-services-unit-title h4 {
+/*.other-services .other-services-unit-title h4 {
     font-weight: 600;
-}
+}*/
 
 .other-services-unit img {
     height: 70px;
@@ -230,10 +232,10 @@
     border-radius: 4px !important;
 }
 
-.courses-slider-more-btn {
+/*.courses-slider-more-btn {
     margin-top: -45px;
     margin-right: 10px;
-}
+}*/
 
 /*.services .services-center {
     text-align: center;
@@ -551,8 +553,8 @@
 
 .courses-tabs {
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    /*padding-top: 80px;*/
+    /*padding-bottom: 30px;*/
 }
 
 .courses-tabs .nav-tabs {
@@ -719,6 +721,10 @@
 
 /*  ---- EVENT LIST ------- */
 
+.event-class-section {
+  padding: 50px 0;
+}
+
 .events-list-container {
     display: block;
     margin: 0 auto;
@@ -732,6 +738,7 @@
 
 .events-shadow {
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .events-shadow,
@@ -876,6 +883,7 @@ hr.events-unit-border{
 .events-pagination {
     margin-top: 58px;
 }
+
 
 
 /* =============== EVENT INNER =================== */
@@ -1321,20 +1329,29 @@ hr.events-unit-border{
 /*About Us*/
 
 .aboutus {
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     padding-bottom: 80px;
-    overflow: hidden;
+    /*background-color: #edfafd; */
+    /*overflow: hidden;
     background-image: url('../images/CoverImage.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .aboutus-wrapper {
-    padding-top: 20px;
+    padding: 50px 0;
 }
 
-.aboutus .video {
+.about-subtitle {
+  display: block;
+  text-align: center;
+  margin: 20px auto 0;
+  width: 500px;
+  line-height: 24px;
+}
+
+/*.aboutus .video {
     padding-top: 80px;
     position: relative;
 }
@@ -1373,9 +1390,9 @@ hr.events-unit-border{
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
     transform: scale(0);
-}
+}*/
 
-@keyframes ripple {
+/*@keyframes ripple {
     from {
         transform: scale(0);
         opacity: 1;
@@ -1385,24 +1402,58 @@ hr.events-unit-border{
         opacity: 0;
     }
 }
-
+*/
 
 /*.aboutus .video .video-button a:hover{
   color: blue;
 }    */
 
-.aboutus-content {
-    padding-left: 70px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.aboutus-content:after {
+
 }
 
-.aboutus-content p {
+.aboutus-content > p {
     margin-top: 20px;
-    color: #fff;
+    /*color: #fff;*/
 }
 
-.aboutus-title {
+.about-list {
+  clear: both;
+}
+
+.about-item-img {
+  float: left;
+  margin-right: 25px;
+  padding-top: 20px;
+}
+
+.about-item-img img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.about-item-content {
+  padding-top: 8px;
+}
+
+.about-item-content p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+.about-line {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #efefef;
+}
+
+
+
+
+/*.aboutus-title {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
@@ -1422,49 +1473,96 @@ hr.events-unit-border{
     line-height: 24px;
     color: #fff;
     text-align: justify;
-}
+}*/
 
-.grid {
+/*.grid {
     text-align: center;
     padding-left: 70px;
     position: relative;
+}*/
+
+
+/*------------------------------------- WHO WE ARE ENDS ------------------------------------ */
+
+
+/*------------------------------------- COUNTER SECTION ------------------------------------ */
+.counter-section {
+  background: url(../images/auditorium-benches-board-207691.jpg) fixed 50% 50%;
+  background-size: cover;
 }
 
-.icon {
-    position: absolute;
-    left: 25px;
-    top: 0px;
+.counter-bg {
+  background-color: rgba(3, 159, 220, .9);
+  height: inherit;
+  width: auto;
+}
+
+.countup {
+  padding: 50px 0;
+}
+
+
+
+.countup-item h3 {
+    margin: 0;
+    /*font-size: 2.4rem;*/
+    /*font-weight: bold;*/
+}
+
+.countup-item:after {
+  content: " ";
+  clear: both;
+}
+
+.counter-icon {
+    display: block; 
+    float: left; 
     width: 60px;
 }
 
-.icon img {
+.counter-icon img {
     width: 100%;
 }
 
 .counter-text {
-    padding-left: 10px;
+  display: block;
+  float: left;
+  padding-left: 20px;
+}
+
+.counter-text h3 {
+  padding-top: 5px;
+}
+
+.counter-text h3 > span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.counter-text p {
+    padding-top: 3px;
+    padding-left: 4px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 22px;
     color: #fff;
 }
 
-.grid h3 {
-    margin: 0;
-    font-size: 2.4rem;
-    font-weight: bold;
-}
 
-.grid p {
-    padding-top: 5px;
-    font-size: 16px;
-    margin: 0;
-    color: #fff;
-    line-height: 1.7em;
-}
 
+
+/*------------------------------------- COUNTER SECTION ENDS------------------------------------ */
 
 /*.....................OUR TUTORS...................*/
 
+.tutors-section {
+  padding: 50px 0;
+  background: #edfafd;
+}
+
 .tutors-unit {
-    border: 1px solid #efefef;
+    background: #fff;
+    /*border: 1px solid #efefef;*/
     border-radius: 5px;
     padding: 20px 20px;
     position: relative;
@@ -1562,35 +1660,14 @@ hr.events-unit-border{
 
 /*.....................OUR TUTORS ENDS...................*/
 
-
-/*.teachers{
-  text-align: center;
-}
-.teachers-cell img{
-  height: 150px;
-  width: 150px !important;
-  border-radius: 50%;
-}
-.teachers-cell .carousel-cell-content-wrapper .post-title{
-
-  padding-bottom: 5px;
-
-}
-.teachers-description p{
-  text-align: center !important;
-}
-.teachers-social-icons a{
-  padding: 10px;
-}
-.teachers-social-icons a:first-child{
-  display: none;
-}*/
-
-
 /* -----------Testimonial ------------------*/
 
+.testimonial-section {
+  padding: 50px 0;
+}
+
 .testimonial-outer {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 .testimonial-outer span i {
@@ -1618,12 +1695,12 @@ hr.events-unit-border{
     letter-spacing: 0.6;
 }
 
-.testimonial-slider {
+/*.testimonial-slider {
     padding-top: 40px;
-}
+}*/
 
 .testimonial{
-  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  box-shadow: 5px 3px 12px 0 rgba(46,61,73,.1);
    padding: 30px 30px 30px 130px;
    margin: 30px 30px 30px 30px;
    overflow: hidden;
@@ -1673,16 +1750,16 @@ hr.events-unit-border{
 }
 
 .testimonial .description {
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
-    color: #918686;
-    line-height: 25px;
+    line-height: 24px;
     margin-bottom: 15px;
+    letter-spacing: 0.6px;;
 }
 
 .testimonial .title {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #2987bf;
     margin: 0;
@@ -1690,7 +1767,7 @@ hr.events-unit-border{
 
 .testimonial .post {
     display: inline-block;
-    font-size: 17px;
+    font-size: 13px;
     color: #2987bf;
 }
 
@@ -1710,7 +1787,7 @@ hr.events-unit-border{
 
 .gallery-container {
     text-align: center;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 ;
 }
 
 .gallery-bg {
@@ -1723,6 +1800,10 @@ hr.events-unit-border{
   background-color: rgba(51, 51, 51, .9);
   height: inherit;
   width: auto;
+}
+
+.gallery-container h2 {
+  margin-top: 0;
 }
 
 .img-wrapper {

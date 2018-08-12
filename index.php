@@ -612,11 +612,109 @@
               </div>
             </section>
 
+            <section class="core-feature">
+              <div class="container">
+                  <div class="row">
+                      <h2 class="title-h2 text-light m-b-3">Our Core Features</h2>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/6.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Mastery Learning</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/1.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Qualified Teachers</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/2.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Graduation Degree</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/3.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Online Courses</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/4.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Abundant Labs</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                          <div class="other-services-unit m-b-3 p-1">
+                              <div class="other-services-unit-icon">
+                                  <img src="images/svg/5.png">
+                              </div>
+                              <div class="other-services-unit-title m-b-2">
+                                  <h4>Library System</h4>
+                              </div>
+                              <div class="other-services-unit-description">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, .
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+            </section>
+
             <section class="aboutus">
                 <div class="container">
                     <div class="row">
                         <div class="aboutus-wrapper">
-                            <div class="col-md-6 video wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".5s">
+                            <h2 class="title-h2 text-normal header-color text-center">Who We Are ?</h2>
+                            <span class="about-subtitle">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </span>
+
+                            <!-- <div class="col-md-6 video">
                                 <div class="video-image">
                                     <img src="images/about-pic.jpg">
                                 </div>
@@ -632,74 +730,152 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 wow fadeInRight" data-wow-duration="3s" data-wow-delay=".5s">
-                                <div class="aboutus-content">
-                                    <!-- <p class="aboutus-title">WHAT WE OFFER</p> -->
-                                    <h6 class="title-h6 text-w">who we are</h6>
-                                    <h2 class="title-h2 text-w ">We are leading IT Training Provider.</h2>
-                                    <!-- <p class="aboutus-subtitle">We are leading international consulting firm specializing in financial investment.</p> -->
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div> -->
+                            <div class="aboutus-content p-t-4">
+                              <div class="col-md-6">
+                                  <div class="aboutus-inner">
+                                    <div class="about-list">
+                                      <div class="about-item-img">
+                                        <img src="images/004-interface.png" alt="image">
+                                      </div>
+                                      <div class="about-item-content">
+                                          <h4 class="title-h4 header-color text-bold">Training Provider</h4>
+                                          <p>Cum sociis natoque penatibus et magnis dis euismod. sed do eiusmod tempor incididunt ut labore et </p>
+                                      </div>
+                                    </div>
+
+                                    <div class="about-list">
+                                      <div class="about-item-img">
+                                        <img src="images/005-search.png" alt="image">
+                                      </div>
+                                      <div class="about-item-content">
+                                          <h4 class="title-h4 header-color text-bold">Technology Consultant</h4>
+                                          <p>Cum sociis natoque penatibus et magnis dis euismod</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="about-list">
+                                      <div class="about-item-img">
+                                        <img src="images/009-startup.png" alt="image">
+                                      </div>
+                                      <div class="about-item-content">
+                                          <h4 class="title-h4 header-color text-bold">Service Provider</h4>
+                                          <p>Cum sociis natoque penatibus et magnis dis euismod. sed do eiusmod tempor incididunt ut labore et </p>
+                                      </div>
+                                    </div>
+
+                                    <div class="about-list">
+                                      <div class="about-item-img">
+                                        <img src="images/004-interface.png" alt="image">
+                                      </div>
+                                      <div class="about-item-content">
+                                          <h4 class="title-h4 header-color text-bold">Training Provider</h4>
+                                          <p>Cum sociis natoque penatibus et magnis dis euismod. sed do eiusmod tempor incididunt ut labore et </p>
+                                      </div>
+                                    </div>
+                                      
+                                  </div>
+                              </div>
+
+                              <div class="col-md-3">
+                                <div class="aboutus-box">
+                                  <img src="images/landing-7.jpg" alt="about">
                                 </div>
+                              </div>
+
+                              <div class="col-md-3">
+                                <div class="aboutus-box">
+                                  <img src="images/landing-7.jpg" alt="about">
+                                </div>
+                              </div>
                             </div>
+                            <!-- <div class="clearfix"></div>
+                            <div class="about-line m-t-5"></div> -->
                         </div>
-                        <div class="countup col-md-12 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".5s">
-                            <div class="grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="icon">
-                                    <img src="images/svg/graduation-hat.svg">
-                                </div>
-                                <div class="counter-text">
-                                    <h3>
-                                       <span class="counter text-w" data-counter-time="4000" data-counter-delay="10">1,234</span><span class="text-w">+</span>
-                                    </h3>
-                                    <p>Student Trained</p>
-                                </div>
-                            </div>
-                            <div class="grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="icon">
-                                    <img src="images/svg/connection.svg">
-                                </div>
-                                <div class="counter-text">
-                                    <h3>
-                                        <span class="counter text-w" data-counter-time="4000" data-counter-delay="10">1,234</span><span class="text-w">+</span>
-                                    </h3>
-                                    <p>Partners</p>
-                                </div>
-                            </div>
-                            <div class="grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="icon">
-                                    <img src="images/svg/university-lecture.svg">
-                                </div>
-                                <div class="counter-text">
-                                    <h3>
-                                        <span class="counter text-w" data-counter-time="4000" data-counter-delay="10">1,234</span><span class="text-w">+</span>
-                                    </h3>
-                                    <p>Certified Trainer</p>
-                                </div>
-                            </div>
-                            <div class="grid col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="icon">
-                                    <img src="images/svg/open-book.svg">
-                                </div>
-                                <div class="counter-text">
-                                    <h3>
-                                      <span class="counter text-w" data-counter-time="4000" data-counter-delay="10">1,234</span><span class="text-w">+</span>
-                                    </h3>
-                                    <p>Courses</p>
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
             </section>
 
-            <section>
+            <section class="counter-section">
+              <div class="counter-bg">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="countup">
+
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="countup-item">
+                          <div class="counter-icon">
+                              <img src="images/svg/graduation-hat.svg">
+                          </div>
+                          <div class="counter-text">
+                              <h3>
+                                 <span class="counter text-w">1,234</span><span class="text-w">+</span>
+                              </h3>
+                              <p>Student Trained</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="countup-item">
+                          <div class="counter-icon">
+                              <img src="images/svg/connection.svg">
+                          </div>
+                          <div class="counter-text">
+                              <h3>
+                                 <span class="counter text-w">1,234</span><span class="text-w">+</span>
+                              </h3>
+                              <p>Partners</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="countup-item">
+                          <div class="counter-icon">
+                              <img src="images/svg/university-lecture.svg">
+                          </div>
+                          <div class="counter-text">
+                              <h3>
+                                 <span class="counter text-w">1,234</span><span class="text-w">+</span>
+                              </h3>
+                              <p>Certified Trainer</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="countup-item">
+                          <div class="counter-icon">
+                              <img src="images/svg/open-book.svg">
+                          </div>
+                          <div class="counter-text">
+                              <h3>
+                                 <span class="counter text-w" data-counter-time="4000" data-counter-delay="10">1,234</span><span class="text-w">+</span>
+                              </h3>
+                              <p>Courses</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="event-class-section">
                 <div class="container">
                     <div class="row">
                         <div class="events">
                             <div class="col-md-8">
                                 <div class="events-shadow">
-                                    <h2 class="title-h2 text-light event-title">Event</h2>
+                                    <h2 class="title-h2 text-normal event-title">Event</h2>
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="row">
@@ -844,7 +1020,7 @@
                             <div class="col-md-4">
                                 <div class="classes-shadow">
                                     <div class="classes">
-                                        <h2 class="title-h2 class-title text-light">Class</h2>
+                                        <h2 class="title-h2 class-title text-normal">Class</h2>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div id="demo" class="scroll-text classes-list">
@@ -1091,14 +1267,13 @@
                 </div>
             </section>
 
-            <section class="container">
+            <section class="testimonial-section">
+              <div class="container">
                 <div class="testimonial-outer">
                     <div class="row">
 
                         <div class="col-md-12">
-                            <!-- <span><i class="fas fa-quote-left"></i></span> -->
-                            <h2 class="title-h2 text-center text-light">Testimonial</h2>
-                            <!-- <div class="testimonial-title">Testimonial</div> -->
+                            <h2 class="title-h2 text-center text-normal">Testimonial</h2>
                             <div id="testimonial-slider" class="owl-carousel testimonial-slider">
                                 <div class="testimonial">
                                     <div class="pic">
@@ -1107,35 +1282,35 @@
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
                                     </p>
-                                    <h3 class="title">WILLIAMSON</h3>
-                                    <small class="post">- Web Developer</small>
+                                    <h3 class="title">Manish Shrestha</h3>
+                                    <small class="post">, Web Developer (Laba Pvt)</small>
                                 </div>
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="images/img_avatar.png">
+                                        <img src="images/0.jpeg">
                                     </div>
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
                                     </p>
-                                    <h3 class="title">kristina</h3>
-                                    <small class="post">- Web Designer</small>
+                                    <h3 class="title">Maheshwor M. Joshi</h3>
+                                    <small class="post">, General Manager (Laba Pvt)</small>
                                 </div>
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="images/avatar-2-300x300.png">
+                                        <img src="images/rm.jpeg">
                                     </div>
                                     <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
                                     </p>
-                                    <h3 class="title">kristina</h3>
-                                    <small class="post">- Web Designer</small>
+                                    <h3 class="title">Roshan Maharjan</h3>
+                                    <small class="post">, BOD Manager (Laba Pvt)</small>
                                 </div>
                             </div>
-                            <!-- <span><i class="fas fa-quote-right"></i></span> -->
                         </div>
 
                     </div>
                 </div>
+              </div>
             </section>
 
             <!-- GALLERY -->

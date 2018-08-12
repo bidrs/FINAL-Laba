@@ -122,24 +122,24 @@
 /*footer2*/
 
 .footer2 {
-    padding-bottom: 14px;
+    padding-bottom: 40px;
 }
 
-.accredit {
+.foot-last {
     margin-top: 35px;
     margin-bottom: 15px;
     padding-top: 35px;
-    border-top: 1px solid #CBD9DD;
+    border-top: 1px solid #D0DBDE;
 }
 
-.accredit span {
+/*.accredit span {
     text-align: center;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.5px;
     line-height: 27px;
     color: #525c65;
-}
+}*/
 
 .footer2 ul li,
 .footer2 ul li a {

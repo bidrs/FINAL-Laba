@@ -126,7 +126,7 @@
 
 <section class="footer2">
   <div class="container">
-     <div class="row">
+     <!-- <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
            <div class="accredit">
               <span>PMP® & CAPM® are registered marks of PMI.</span>
@@ -134,7 +134,7 @@
               <span>The Swirl logoTM is a trade mark of AXELOS Limited.</span>
            </div>
         </div>
-     </div>
+     </div> -->
      <div class="row">
        <div class="foot-last text-center">
          <div class="col-md-12 col-sm-12 col-xs-12">
@@ -159,6 +159,16 @@
                </body>
                <!-- jQuery library -->
                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+               <!-- <script type="text/javascript" src="js/plugins/jquery.waypoints.min.js"></script> -->
+               <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+               <script type="text/javascript" src="js/plugins/jquery.countup.js"></script>
+               <script>
+                 $('.counter').counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+               </script>
                               <!-- MENU JS-->
 
                <script>
@@ -222,8 +232,8 @@
                </script>
                <!-- Latest compiled JavaScript -->
                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+          
+  
                <!-- STICKY NAVIGATION -->
                <script src="js/plugins/float-panel.js"></script>
 
@@ -387,7 +397,6 @@
                 </script>
 
                 
-               <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
                <script type="text/javascript" src="js/plugins/jquery.scrollbox.min.js"></script>
                <script type="text/javascript">
                $(function () {
@@ -405,10 +414,8 @@
                });
                });
                </script>
-               <script type="text/javascript" src="js/plugins/jquery.countup.js"></script>
-               <script>
-                 $('.counter').countUp();
-               </script>
+
+
 
 
                <script type="text/javascript" src="js/plugins/wow.min.js"></script>

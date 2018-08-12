@@ -2,7 +2,7 @@
 	<div class="float-panel" data-top="0" data-scroll="200">
 		<div class="container">
 			<nav class="main-nav">
-				<div class="logo"><a href="#"><img src="images/logo-trans.png" alt="logo"></a></div>
+				<div class="logo"><a href="index.php"><img src="images/logo-trans.png" alt="logo"></a></div>
 	            <div class="button"></div>
 
 	            <div class="menu-search">
