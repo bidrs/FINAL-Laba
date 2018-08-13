@@ -41,11 +41,19 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li><a href="AllCourses.php">All Courses</a></li>
                         </ul>
 
 	                </li>
-	                <li class="active"><a href="#">About Us</a></li>
-	                <li><a href="#">Services</a></li>
+	                <li class="active">
+	                	<a href="#">About Us</a>
+						<ul>
+                            <li>
+                                <a href="teacher.php">Our Mentors</a>
+                            </li>
+                        </ul>
+	                </li>
+	                <li><a href="services.php">Services</a></li>
 	                <li><a href="eventslist.php">Events</a></li>
 	                <li><a href="#">Gallery</a></li>
 	                <li><a href="contact.php">Contact Us</a></li>

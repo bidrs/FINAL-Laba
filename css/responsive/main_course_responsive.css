@@ -85,6 +85,13 @@
 	.first-section-list { max-width: 370px; }
 	/*  --------------------- INDEX ------------------------*/
 
+	/* ---------------------- ALL COURSES ------------------*/
+	.grid-item-overlay p { font-size: 14px !important; font-weight: 400; letter-spacing: 0.4px;  }
+	.courses-tab-filter .dropdown-menu { left: auto !important; right: 0; }
+
+	/* ---------------------- ALL COURSES ------------------*/
+
+
 	/*  --------------------- ALL EVENTS ------------------------*/
 	.events-list-container { height: 1730px; }
 	.events .events-image {  top: -173px;}
@@ -116,7 +123,22 @@
 	/* ----------------------- CONTACT PAGE ------------------------*/
  }
 
+ @media screen and (max-width: 640px) {
+
+ 	/* ---------------------- ALL COURSES ------------------*/
+ 	.courses-tabs .nav-tabs > li > a { font-size: 10px; }
+ 	.courses-tabs .nav-tabs > li.active > a::after {  border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #00a0dc; top: 35px; margin-left: -5px; }
+	.courses-tab-filter button { padding: 7px 10px; font-size: 13px; }
+	.courses-tab-filter .dropdown-menu > li > a { padding: 6px 12px; font-size: 11px; }
+	.level-tag {top: 166px; }
+	/* ---------------------- ALL COURSES ------------------*/
+ }
+
  @media screen and (max-width: 568px) {
+ 	/* ---------------------- ALL COURSES ------------------*/
+	.level-tag { top: 142px; }
+	/* ---------------------- ALL COURSES ------------------*/
+
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	.event { height: 390px; }
 	.event-text { padding-top: 45px; }
@@ -144,6 +166,34 @@
  }
 
 @media screen and (max-width: 500px) {
+
+	/* ---------------------- ALL COURSES ------------------*/
+	.courses-tabs { padding: 50px 0 0 0; }
+	.courses-tab-content-detail {padding: 5px 0 12px; }
+	.level-tag { top: 114px; }
+	.courses-tabs .nav-tabs > li > a { font-size: 9px; padding: 6px 6px; }
+	.courses-tabs .nav-tabs > li.active > a::after { top: 26px; }
+	.courses-tab-filter button { padding: 5px 10px; font-size: 10px; }
+	.courses-tab-filter span { font-size: 10px; }
+	.courses-tab-filter .dropdown-menu { min-width: 117px; }
+	.courses-tab-filter .dropdown-menu > li > a { padding: 5px 12px; font-size: 10px; }
+	.courses-tab-content-detail h6 { font-size: 13px; }
+	.courses-tab-content-duration { font-size: 11px;}
+	.courses-tab-content-detail-rate { padding-left: 48px; }
+	.courses-tab-content-button a { font-size: 10px;}
+
+	.courses-tabs .col-xs-10 { width: 100%; }
+	.courses-tabs-nav { text-align: center; }
+
+	.courses-tab-filter {margin-left: 160px; margin-top: 18px;}
+	.courses-tab-filter .dropdown-menu { text-align: center; margin-left: -31px; right: auto; }
+	.level-tag { top: 92px; }
+	.courses-tab-content-detail-rate { padding-left: 32px; }
+
+	.tab-pagination .pagination { margin: 2px 0; }
+	
+	/* ---------------------- ALL COURSES ------------------*/
+
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	.event-register-box { margin-bottom: 60px; }
 	.event-register-box h1 { font-size: 25px; }
@@ -157,6 +207,8 @@
 	.event-share-box ul li a i { font-size: 15px; transform: translateY(50%); }
 
 	/*  --------------------- EVENT SINGLE ------------------------*/
+
+
 }
 
 @media screen and (max-width: 414px) {
@@ -209,6 +261,19 @@
 
 	/*  --------------------- INDEX ------------------------*/
 
+	/* ---------------------- ALL COURSES ------------------*/
+	.courses-tab-filter { margin-left: 145px; }
+	.level-tag {top: 79px;}
+	.level-b-bg, .level-i-bg, .level-e-bg { font-size: 10px; }
+	.courses-tab-content-detail h6 { font-size: 12px; }
+	.courses-tab-content-duration { font-size: 10px; }
+	.courses-tab-content-detail-rate {padding-left: 21px;}
+	.pagination > li > a, .pagination > li > span {padding: 4px 10px; font-size: 12px;}
+
+
+	/* ---------------------- ALL COURSES ------------------*/
+
+
 	/*  --------------------- ALL EVENTS ------------------------*/
 	.events-list-container { height: 1278px; }
 	.events .events-unit { padding: 8px 8px; }
@@ -251,6 +316,14 @@
 	/*  --------------------- INDEX ------------------------*/
 
 
+   /* ----------------------- ALL COURSES ----------------- */
+   .courses-tabs .nav-tabs {display: inline-flex; }
+   .courses-tabs .nav-tabs > li.active > a::after { top: 39px; }
+   .courses-tab-filter { margin-left: 136px; }
+   .level-tag { top: 74px; }
+   /* ----------------------- ALL COURSES ----------------- */
+
+
 	/*  --------------------- ALL EVENTS ------------------------*/
 	.events-list-container { height: 1416px; }
 	.events .events-image { top: -220px; }
@@ -276,6 +349,17 @@
  	.searching form { max-width: 280px; }
  	.first-section-list { max-width: 280px; }
 	/*  --------------------- INDEX ------------------------*/
+
+	/* ---------------------- ALL COURSES ------------------*/
+	.courses-tab-filter { margin-left: 116px; }
+	.tab-content .col-xs-6 { width: 100%; }
+	.level-b-bg, .level-i-bg, .level-e-bg { font-size: 11px; }
+	.level-tag { top: 167px; }
+	.courses-tab-content-detail h6 { font-size: 14px; }
+	.courses-tab-content-duration { font-size: 11px; }
+	.courses-tab-content-detail-rate { padding-left: 84px; }
+
+	/* ---------------------- ALL COURSES ------------------*/
 
 
 	/*  --------------------- EVENT SINGLE ------------------------*/

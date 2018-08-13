@@ -969,128 +969,198 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="classes-shadow">
-                                    <div class="classes">
-                                        <h2 class="title-h2 class-title text-normal">Class</h2>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div id="demo" class="scroll-text classes-list">
-                                                    <ul>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/1.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/2.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/1.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/2.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/1.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/2.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/2.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="classes-image">
-                                             <a href="">
-                                                <img src="images/2.jpg" alt="classes">
-                                             </a>
-                                          </span>
-                                                            <span class="classes-description">
-                                             <a href="#">
-                                                <h6 class="title-h6 text-bold classes-list-title">Dedicated to Perfection in ICT</h6>
-                                             </a>
-                                             <p class="events-more-date">Date: May 19, 1995</p>
-                                          </span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="demo-btn" class="text-center">
-                                        <a class="btn" id="demo-backward"><i class="fas fa-chevron-up"></i></a>
-                                        <a class="btn" id="demo-forward"><i class="fas fa-chevron-down"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                              <div class="classes-shadow">
+                                  <div class="classes">
+                                      <h2 class="title-h2 class-title text-light">Class</h2>
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                              <div id="demo" class="scroll-text classes-list">
+                                                  <ul>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                      <li>
+                                                          <div class="row">
+                                                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                  <div class="classes-list">
+                                                                      <div class="classes-list-unit">
+                                                                          <div class="row">
+                                                                              <div class="col-md-4 col-sm-4 col-xs-4">
+                                                                                  <div class="classes-list-unit-date">
+                                                                                      <div class="classes-list-unit-date-number text-bold">01</div>
+                                                                                      <hr>
+                                                                                      <div class="classes-list-unit-date-day">Mon</div>
+                                                                                  </div>
+                                                                              </div>
+                                                                              <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                                  <div class="classes-list-unit-detail">
+                                                                                      <h4 class="classes-list-unit-title text-bold">Microsoft</h4>
+                                                                                      <div class="classes-list-unit-information">
+                                                                                          <div class="classes-list-unit-time"><i class="fas fa-clock"></i> <span>10:00AM</span> </div>
+                                                                                          <div class="classes-list-unit-location"><i class="fas fa-map-marker"></i> <span>Kathmadu</span> </div>
+                                                                                      </div>
+                                                                                      <div class="classes-list-unit-teacher"><i class="fas fa-chalkboard-teacher"></i><span> Mr. Manish Shrestha</span> </div>
+                                                                                  </div>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div id="demo-btn" class="text-center">
+                                      <a class="btn" id="demo-backward"><i class="fas fa-chevron-up"></i></a>
+                                      <a class="btn" id="demo-forward"><i class="fas fa-chevron-down"></i></a>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
                     </div>
                 </div>

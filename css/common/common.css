@@ -207,9 +207,17 @@ ul li {
   padding-bottom: 20px;
 }
 
+.p-l-1{
+   padding-left: 10px;
+}
+
 
 .no-border {
   border: none !important;
+}
+
+.w-bg {
+  background-color: #fff !important;
 }
 
 /* SOCIAL MEDIA */
@@ -318,6 +326,10 @@ ul li {
   background-color: #0591c8;
 }
 
+.c-bg-dark-blue {
+  background-color: #0077b5;
+}
+
 /*  ----  BUTTON --- */
 
 /* ----- FORM ----- */
@@ -349,7 +361,7 @@ ul li {
 /* ----- FORM ----- */
 
 
-.filter{
+/*.filter{
     padding-bottom: 30px;
 }
 
@@ -422,10 +434,9 @@ ul li {
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
     background-clip: padding-box;
-   /* box-shadow: 0 4px 16px rgba(20,23,28,.25);*/
     border: none;
-}
-.dropdown-menu a{
+}*/
+/*.dropdown-menu a{
     display: block;
     text-decoration: none;
     color: #5a5050;
@@ -459,7 +470,7 @@ ul li {
     font-size: 14px;
     text-decoration: none;
     color: #7d97ad;
-}
+}*/
 /*For ScrollTop*/
  #scroll {
     position:fixed;
@@ -492,7 +503,7 @@ ul li {
     -ms-filter:"alpha(opacity=100)";
 }
 
-.filter-select .btn{
+/*/*.filter-select .btn{
     font-weight: 400;
     border: 1px solid #cacbcc;
     border-top:2px solid #50b0f4;
@@ -553,9 +564,9 @@ ul li {
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
     background-clip: padding-box;
    /* box-shadow: 0 4px 16px rgba(20,23,28,.25);*/
-    border: none;
-}
-.dropdown-menu a{
+    /*border: none;*/
+/*}*/
+/*.dropdown-menu a{
     display: block;
     text-decoration: none;
     color: #5a5050;
@@ -603,9 +614,9 @@ ul li {
     display: block !important;
     overflow: hidden !important;
     opacity: 0 !important;
-}
+}*/
 
-.dropdown.open .dropdown-menu {
+/*.dropdown.open .dropdown-menu {
     max-height: 314px !important;
     opacity: 1 !important;
     overflow-y: scroll !important;
@@ -613,26 +624,26 @@ ul li {
 .dropdown-menu::-webkit-scrollbar {
       width: 2px;
       border-radius: 7px;
-} /* this targets the default scrollbar (compulsory) */
-.dropdown-menu::-webkit-scrollbar-track {
+}*/ /* this targets the default scrollbar (compulsory) */
+/*.dropdown-menu::-webkit-scrollbar-track {
       background-color: #caccce;
        border-radius: 7px;
-} /* the new scrollbar will have a flat appearance with the set background color */
+}*/ /* the new scrollbar will have a flat appearance with the set background color */
  
-.dropdown-menu::-webkit-scrollbar-thumb {
+/*.dropdown-menu::-webkit-scrollbar-thumb {
       background-color: #00a0dc; 
        border-radius: 7px;
-} /* this will style the thumb, ignoring the track */
+}*/ /* this will style the thumb, ignoring the track */
  
-.dropdown-menu::-webkit-scrollbar-button {
+/*.dropdown-menu::-webkit-scrollbar-button {
       background-color: #00000040;
        border-radius: 7px;
        cursor: pointer;
-} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+}*/ /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
  
-.dropdown-menu::-webkit-scrollbar-corner {
+/*.dropdown-menu::-webkit-scrollbar-corner {
       background-color: black;
-} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+}*/ /**/*/ if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
 
 
