@@ -195,7 +195,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -225,7 +225,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -255,7 +255,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -285,7 +285,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -315,7 +315,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -345,7 +345,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -375,7 +375,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -405,7 +405,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -437,7 +437,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -467,7 +467,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -497,7 +497,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -527,7 +527,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -557,7 +557,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -587,7 +587,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -617,7 +617,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -647,7 +647,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -679,7 +679,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -709,7 +709,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -739,7 +739,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -769,7 +769,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -799,7 +799,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -829,7 +829,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -859,7 +859,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -889,7 +889,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -921,7 +921,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -951,7 +951,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -981,7 +981,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -1011,7 +1011,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -1041,7 +1041,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -1071,7 +1071,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -1101,7 +1101,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>
@@ -1131,7 +1131,7 @@
                                             </div>
                                             
                                             <div class="courses-tab-content-button">
-                                                <a href="#" class="btn c-btn c-bg-blue no-box-shadow text-center">
+                                                <a href="courseinner.php" class="btn c-btn c-bg-blue no-box-shadow text-center">
                                                     Read More
                                                 </a>
                                             </div>

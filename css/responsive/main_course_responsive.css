@@ -55,6 +55,15 @@
 
 	/*  --------------------- ALL EVENTS ------------------------*/
 
+	/* ---------------------- TUTORS DETAILS --------------------*/
+	.teacher-detail-container { text-align:  center; }
+	.teacher-detail-introduction-title h3 { margin: 30px 0 20px; }
+
+	/* ---------------------- TUTORS DETAILS --------------------*/
+
+
+
+
 
 	/* ----------------------- CONTACT PAGE ------------------------*/
 	.contact-info-list-top { padding: 0 23px 0 12px; }
@@ -92,6 +101,15 @@
 	/* ---------------------- ALL COURSES ------------------*/
 
 
+	/* ---------------------- TUTORS -----------------------*/
+	.tutors-photo { height: 135px;  width: 135px; margin-bottom: 5px; }
+	.tutors-name h4 { font-size: 14px; margin-bottom: 4px; }
+	.tutors-position p { font-size: 11px; }
+	.tutors-button .btn { font-size: 11px; }
+
+	/* ---------------------- TUTORS -----------------------*/
+
+
 	/*  --------------------- ALL EVENTS ------------------------*/
 	.events-list-container { height: 1730px; }
 	.events .events-image {  top: -173px;}
@@ -126,6 +144,7 @@
  @media screen and (max-width: 640px) {
 
  	/* ---------------------- ALL COURSES ------------------*/
+
  	.courses-tabs .nav-tabs > li > a { font-size: 10px; }
  	.courses-tabs .nav-tabs > li.active > a::after {  border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #00a0dc; top: 35px; margin-left: -5px; }
 	.courses-tab-filter button { padding: 7px 10px; font-size: 13px; }
@@ -136,6 +155,7 @@
 
  @media screen and (max-width: 568px) {
  	/* ---------------------- ALL COURSES ------------------*/
+ 	.first-grid-item .grid-item-overlay p {padding-bottom: 4px;}
 	.level-tag { top: 142px; }
 	/* ---------------------- ALL COURSES ------------------*/
 
@@ -168,6 +188,13 @@
 @media screen and (max-width: 500px) {
 
 	/* ---------------------- ALL COURSES ------------------*/
+	.grid-item-overlay p { font-size: 12px !important; letter-spacing: 0.2px; }
+	.first-grid-item .grid-item-overlay p { padding-bottom: 2px; margin-top: 27px; }
+	.vendors-container .flickity-button-icon { width: 35%; height: 35%; top: 33%;}
+	.vendors-container .flickity-prev-next-button {width: 35px; height: 35px;}
+	.vendors-container .flickity-prev-next-button .flickity-button-icon {left: 30%;}
+
+
 	.courses-tabs { padding: 50px 0 0 0; }
 	.courses-tab-content-detail {padding: 5px 0 12px; }
 	.level-tag { top: 114px; }
@@ -194,6 +221,24 @@
 	
 	/* ---------------------- ALL COURSES ------------------*/
 
+
+	/* ---------------------- TUTORS -----------------------*/
+	.tutors-unit {display: block; min-height: 272px;}
+	.tutors-photo { height: 115px;  width: 115px; margin-bottom: 5px; }
+	.tutors-name h4 { font-size: 12px; margin-bottom: 6px; }
+	.tutors-position p { font-size: 10px; line-height: 14px;}
+	.tutors-button .btn { font-size: 10px; }
+
+	/* ---------------------- TUTORS -----------------------*/
+
+
+	/* ---------------------- TUTORS DETAILS -----------------------*/
+
+	.teacher-detail-container { padding: 50px 10px; }
+
+	/* ---------------------- TUTORS DETAILS -----------------------*/
+	
+
 	/*  --------------------- EVENT SINGLE ------------------------*/
 	.event-register-box { margin-bottom: 60px; }
 	.event-register-box h1 { font-size: 25px; }
@@ -211,7 +256,31 @@
 
 }
 
+@media screen and (max-width: 480px ) {
+
+	/*------------------- ALL COURSES --------------------------------*/
+
+	.first-grid-item .grid-item-overlay p { margin-top: 32px; line-height: 18px; padding-bottom: 3px;}
+	.grid-item-overlay p { font-size: 11px !important; letter-spacing: 0.2px; }
+
+
+	/*------------------- ALL COURSES --------------------------------*/
+
+}
+
 @media screen and (max-width: 414px) {
+	/*------------------- ALL COURSES --------------------------------*/
+	.first-grid-item .grid-item-overlay p { margin-top: 23px; line-height: 15px; padding-bottom: 0; }
+
+	/*------------------- ALL COURSES --------------------------------*/
+
+	/* ---------------------- TUTORS -----------------------*/
+	.tutors-box { margin-left: 0px; margin-right: 0px; }
+	.tutors-unit { margin: 12px 0; }
+	.tutors-description p {line-height: 16px; font-size: 10px;}
+
+	/* ---------------------- TUTORS -----------------------*/
+
 	/*  --------------------- ALL EVENTS ------------------------*/
 	.events-list-container { height: 1338px; }
 	.events .events-unit { padding: 9px 20px; }
@@ -360,6 +429,15 @@
 	.courses-tab-content-detail-rate { padding-left: 84px; }
 
 	/* ---------------------- ALL COURSES ------------------*/
+
+	/* ---------------------- TUTORS -----------------------*/
+	.tutors-section .col-xs-6 { width: 100%; }
+	.tutors-photo { height: 140px; width: 140px; }
+	.tutors-name h4 { font-size: 14px; }
+	.tutors-position p { font-size: 11px; line-height: 16px; }
+	.tutors-description p { line-height: 20px; font-size: 12px; margin-top: 20px; margin-bottom: 20px; }
+	.tutors-button .btn { font-size: 13px; }
+	/* ---------------------- TUTORS -----------------------*/
 
 
 	/*  --------------------- EVENT SINGLE ------------------------*/

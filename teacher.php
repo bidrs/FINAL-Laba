@@ -10,7 +10,7 @@
                         <h2 class="title-h2 text-normal text-center m-b-3">Our Expert Tutors</h2>
                         <div class=" col-md-12">
                             <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -24,7 +24,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -34,7 +34,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -48,7 +48,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -58,7 +58,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -72,7 +72,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -82,7 +82,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -96,7 +96,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -106,7 +106,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -120,7 +120,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -130,7 +130,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -144,7 +144,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
@@ -154,7 +154,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <div class="tutors-box">
                                         <div class="tutors-unit">
                                             <div class="tutors-photo">
@@ -168,7 +168,7 @@
                                             </div>
                                             <div class="tutors-description">
                                                 <h4 class="title-h4 text-w text-bold">Profile</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud exercitation ullamco laboris nisi ut aliquip on ullamco laboris nisi ut aliquip ex ea commodo consequat quis nostrud </p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  </p>
                                                 <div class="tutors-button">
                                                     <a href="teacher-detail.php" class="btn c-btn c-bg-dark-blue">
                       Read More
