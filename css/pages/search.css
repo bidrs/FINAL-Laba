@@ -31,14 +31,14 @@
 
 .course-unit{
     border: 1px solid #efefef;
-    border-radius: 12px;
+    border-radius: 4px;
     overflow: hidden;
      box-shadow:0 0px 6px 0px rgba(20, 23, 28, 0.18);
      margin-bottom: 30px;
 }
 .course-inner{
     display: inline-block;
-     padding: 14px;
+     padding: 15px;
 }
 /*.course-unit-image{
     padding: 14px;
@@ -46,34 +46,34 @@
 .course-unit .course-unit-image img{
     height: 110px !important;
     width: 100%;
+    border-radius: 4px;
    
 }
-.course-unit .course-unit-title{
-        font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 6px;
-    color: #333;
+.course-inner h3{
+    margin: 0 auto;
 }
 .course-unit .course-unit-title  a{
     text-decoration: none;
+    color: #333;
 }
 .course-unit .course-unit-detail{
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .course-unit .course-unit-detail span{
-    display: inline-block;
+    display: inline-flex;
     padding-right: 5px;
     /*font-weight: bold;*/
 }
 .course-unit .course-unit-detail span i{
-    padding-right: 5px;
+    padding: 6px 6px 6px 0px;
     color: #00a0dc;
 }
 .course-unit .course-unit-detail span p{
    display: inline-block;
 }
 .course-unit .course-unit-detail span .course-unit-detail-duration,
-.course-unit .course-unit-detail span .course-unit-detail-level{
+.course-unit .course-unit-detail span .course-unit-detail-level,
+.course-unit .course-unit-detail span .course-unit-detail-rating{
     color: #000;
 }
 .course-unit .course-unit-detail span .course-unit-detail-hours{
@@ -83,8 +83,121 @@
 .course-unit .course-unit-detail span .course-unit-detail-type{
     padding-left: 5px;
 }
+.course-unit-rating{
+    padding-left: 5px;
+}
+.course-unit .course-unit-detail span .small-active-star{
+    margin-left: 5px;
+}
 .course-unit .course-unit-subtitle{
     font-size: 14px;
     color:  #7d97ad;
     text-align: justify all;
+    display: inline-block;
+    width: 80%;
+}
+.course-unit .course-unit-button{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+/*#accordion:before{
+    content: "";
+    width: 1px;
+    height: 80%;
+    background: #550527;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    bottom: 20px;
+}*/
+#accordion .panel{
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    /*margin: 0 0 12px 50px;*/
+
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+
+    position: relative;
+}
+#accordion .panel:before{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #00a0dc;
+    position: absolute;
+    top: 0;
+    left: -2px;
+}
+#accordion .panel-heading{
+    padding: 0;
+    background: #fff;
+    position: relative;
+}
+/*#accordion .panel-heading:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #550527;
+    position: absolute;
+    top: 50%;
+    left: -48px;
+    transform: translateY(-50%);
+}*/
+#accordion .panel-title a{
+    display: block;
+    padding: 15px 55px 15px 30px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #00a0dc;
+    border: none;
+    margin: 0;
+    position: relative;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 15px;
+    height: 15px;
+    line-height: 12px;
+    border-radius: 50%;
+    font-size: 8px;
+    /*font-weight: normal;*/
+    color: #00a0dc;
+    text-align: center;
+    border: 1px solid #00a0dc;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    transition: all 0.5s ease 0s;
+}
+#accordion .panel-title a.collapsed:before{ content: "\f067"; }
+#accordion .panel-body{
+    padding: 0 30px 15px;
+    border: none;
+    font-size: 14px;
+    color: #305275;
+    line-height: 28px;
+}
+.panel-collapse .panel-body ul li{
+    line-height: 14px;
+    padding: 4px 0;
+}
+.panel-collapse .panel-body ul li a{
+    color: #333;
+    font-size: 11px;
+   
 }

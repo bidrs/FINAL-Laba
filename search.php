@@ -10,86 +10,106 @@
 <?php include 'includes/menu.php';  ?>
 
 <section class="filter">
-	<div class="col-md-12 filter-text p-t-9 p-b-1">
-		<p>1234 result for abcder</p>
+	<div>
+		<div class=" filter-text text-center p-t-9 p-b-1">
+			<p>1234 result for abcder</p>
+		</div>
+		
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="filter-select">
-					<p class="title-h4">Filter By</p>
-					<div class="btn-group dropdown" >
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<span>Action</span><i class="fas fa-caret-down"></i>
-						</button>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-						</div>
-					</div>
-					<div class="btn-group dropdown" >
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<span>Action</span><i class="fas fa-caret-down"></i>
-						</button>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Something else here</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-							<a class="dropdown-item" href="#">Separated link</a>
-						</div>
-					</div>
-				</div>
-				<div class="filter-link">
-					<div class="filter-link-all title-h4 m-t-2 m-b-1"><p> All Courses</p></div>
-				</div>
-				<div class="filter-link-list-title p-t-2">
-					<p class="title-h4">Development</p>
-					<ul>
-						<li><a href="#"> Web Development</a></li>
-						<li><a href="#"> Android Development</a></li>
-						<li><a href="#"> Ruby And Rails</a></li>
-						<li><a href="#"> Website Development</a></li>
-						<li><a href="#"> Software Development	</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-					</ul>
-				</div>
-				<div class="filter-link-list-title p-t-2">
-					<p class="title-h4">Microsoft</p>
-					<ul>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-						<li><a href="#"> Lorem Ipsum Lorem</a></li>
-					</ul>
-				</div>
+				<h4>Filter</h4>
+				<div class="courses-tab-filter text-left">
+                              <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Level
+                                  <span class="fas fa-angle-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li class="active"><a href="#">All</a></li>
+                                  <li><a href="#">Beginner</a></li>
+                                  <li><a href="#">Intermediate</a></li>
+                                  <li><a href="#">Expert</a></li>
+                                </ul>
+                              </div>
+                          </div>	
+                          <div >
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">
+                                Software Development
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                           <ul>
+                           	<li><a href="#">Ajax</a></li>
+                           	<li><a href="#">Web Development with HTML 5, CSS 3 and jQuery</a></li>
+                           	<li><a href="#">HTML % for Mobile Application Development</a></li>
+                           	<li><a href="#">PHP Web Programming</a></li>
+                           	<li><a href="#">JAVA / Advance JAVA</a></li>
+                           	<li><a href="#">Building J2EE Web Application</a></li>
+                           	<li><a href="#">Mastering the Spring 3.0 Framework</a></li>
+                           	<li><a href="#">Advance XML and XSL</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Section 2
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <ul>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Section 3
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <ul>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           	<li><a href="#"> Android Development</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>			
 			</div>
 			<div class="col-md-9 course-list p-t-1">
 				<div class="course-unit">
@@ -99,77 +119,192 @@
 						</div>
 					</div>
 					<div class="course-inner col-md-10 col-sm-9 col-xs-8">
-						<div class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a></div>
+						<h3 class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a>
+						</h3>
 						<div class="course-unit-detail">
-							<span><i class="far fa-clock"></i><p class="course-unit-detail-duration"> Duration:</p><p class="course-unit-detail-hours"> 10:00 hrs</p></span>
-							<span><i class="fas fa-chess"></i><p class="course-unit-detail-level">Level:</p><p class="course-unit-detail-type"> Beginner</p></span>
-							<span></span>
+							<span>
+								<i class="far fa-clock"></i>
+								<p class="course-unit-detail-duration"> Duration:</p>
+								<p class="course-unit-detail-hours"> 10:00 hrs</p>
+							</span>
+							<span>
+								<i class="fas fa-chess"></i>
+								<p class="course-unit-detail-level">Level:</p>
+								<p class="course-unit-detail-type"> Beginner</p>
+							</span>
+							<span class="course-unit-rating">
+								<i class="fas fa-star"></i>
+								<p class="course-unit-detail-rating">Rating:</p>
+								<div class="small-active-star">
+                              		<div class="small-star star-five">
+                              	
+                              		</div>
+                           		</div>
+                           	</span>
 						</div>
-						<div class="course-unit-subtitle">Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum </div>
+						<div class="course-unit-subtitle">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</div>
+						<div class="course-unit-button">
+							<a href="courseinner.php" class="btn c-btn c-bg-blue">View Detail</a>
+						</div>
 					</div>
 				</div>
 				<div class="course-unit">
 					<div class="course-inner col-md-2 col-sm-3 col-xs-4">
 						<div class="course-unit-image">
-							<img src="images/1.jpg">
+							<img src="images/4.jpg">
 						</div>
 					</div>
 					<div class="course-inner col-md-10 col-sm-9 col-xs-8">
-						<div class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a></div>
+						<h3 class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a>
+						</h3>
 						<div class="course-unit-detail">
-							<span><i class="far fa-clock"></i><p class="course-unit-detail-duration"> Duration:</p><p class="course-unit-detail-hours"> 10:00 hrs</p></span>
-							<span><i class="fas fa-chess"></i><p class="course-unit-detail-level">Level:</p><p class="course-unit-detail-type"> Beginner</p></span>
-							<span></span>
+							<span>
+								<i class="far fa-clock"></i>
+								<p class="course-unit-detail-duration"> Duration:</p>
+								<p class="course-unit-detail-hours"> 10:00 hrs</p>
+							</span>
+							<span>
+								<i class="fas fa-chess"></i>
+								<p class="course-unit-detail-level">Level:</p>
+								<p class="course-unit-detail-type"> Beginner</p>
+							</span>
+							<span class="course-unit-rating">
+								<i class="fas fa-star"></i>
+								<p class="course-unit-detail-rating">Rating:</p>
+								<div class="small-active-star">
+                              		<div class="small-star star-one">
+                              	
+                              		</div>
+                           		</div>
+                           	</span>
 						</div>
-						<div class="course-unit-subtitle">Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum </div>
+						<div class="course-unit-subtitle">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</div>
+						<div class="course-unit-button">
+							<a href="courseinner.php" class="btn c-btn c-bg-blue">View Detail</a>
+						</div>
 					</div>
 				</div>
 				<div class="course-unit">
 					<div class="course-inner col-md-2 col-sm-3 col-xs-4">
 						<div class="course-unit-image">
-							<img src="images/1.jpg">
+							<img src="images/4.jpg">
 						</div>
 					</div>
 					<div class="course-inner col-md-10 col-sm-9 col-xs-8">
-						<div class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a></div>
+						<h3 class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a>
+						</h3>
 						<div class="course-unit-detail">
-							<span><i class="far fa-clock"></i><p class="course-unit-detail-duration"> Duration:</p><p class="course-unit-detail-hours"> 10:00 hrs</p></span>
-							<span><i class="fas fa-chess"></i><p class="course-unit-detail-level">Level:</p><p class="course-unit-detail-type"> Beginner</p></span>
-							<span></span>
+							<span>
+								<i class="far fa-clock"></i>
+								<p class="course-unit-detail-duration"> Duration:</p>
+								<p class="course-unit-detail-hours"> 10:00 hrs</p>
+							</span>
+							<span>
+								<i class="fas fa-chess"></i>
+								<p class="course-unit-detail-level">Level:</p>
+								<p class="course-unit-detail-type"> Beginner</p>
+							</span>
+							<span class="course-unit-rating">
+								<i class="fas fa-star"></i>
+								<p class="course-unit-detail-rating">Rating:</p>
+								<div class="small-active-star">
+                              		<div class="small-star star-five">
+                              	
+                              		</div>
+                           		</div>
+                           	</span>
 						</div>
-						<div class="course-unit-subtitle">Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum </div>
+						<div class="course-unit-subtitle">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</div>
+						<div class="course-unit-button">
+							<a href="courseinner.php" class="btn c-btn c-bg-blue">View Detail</a>
+						</div>
 					</div>
 				</div>
 				<div class="course-unit">
 					<div class="course-inner col-md-2 col-sm-3 col-xs-4">
 						<div class="course-unit-image">
-							<img src="images/1.jpg">
+							<img src="images/4.jpg">
 						</div>
 					</div>
 					<div class="course-inner col-md-10 col-sm-9 col-xs-8">
-						<div class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a></div>
+						<h3 class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a>
+						</h3>
 						<div class="course-unit-detail">
-							<span><i class="far fa-clock"></i><p class="course-unit-detail-duration"> Duration:</p><p class="course-unit-detail-hours"> 10:00 hrs</p></span>
-							<span><i class="fas fa-chess"></i><p class="course-unit-detail-level">Level:</p><p class="course-unit-detail-type"> Beginner</p></span>
-							<span></span>
+							<span>
+								<i class="far fa-clock"></i>
+								<p class="course-unit-detail-duration"> Duration:</p>
+								<p class="course-unit-detail-hours"> 10:00 hrs</p>
+							</span>
+							<span>
+								<i class="fas fa-chess"></i>
+								<p class="course-unit-detail-level">Level:</p>
+								<p class="course-unit-detail-type"> Beginner</p>
+							</span>
+							<span class="course-unit-rating">
+								<i class="fas fa-star"></i>
+								<p class="course-unit-detail-rating">Rating:</p>
+								<div class="small-active-star">
+                              		<div class="small-star star-five">
+                              	
+                              		</div>
+                           		</div>
+                           	</span>
 						</div>
-						<div class="course-unit-subtitle">Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum </div>
+						<div class="course-unit-subtitle">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</div>
+						<div class="course-unit-button">
+							<a href="courseinner.php" class="btn c-btn c-bg-blue">View Detail</a>
+						</div>
 					</div>
 				</div>
 				<div class="course-unit">
 					<div class="course-inner col-md-2 col-sm-3 col-xs-4">
 						<div class="course-unit-image">
-							<img src="images/1.jpg">
+							<img src="images/4.jpg">
 						</div>
 					</div>
 					<div class="course-inner col-md-10 col-sm-9 col-xs-8">
-						<div class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a></div>
+						<h3 class="course-unit-title title-h4"><a href="#"> Dedicated to Perfection in ICT</a>
+						</h3>
 						<div class="course-unit-detail">
-							<span><i class="far fa-clock"></i><p class="course-unit-detail-duration"> Duration:</p><p class="course-unit-detail-hours"> 10:00 hrs</p></span>
-							<span><i class="fas fa-chess"></i><p class="course-unit-detail-level">Level:</p><p class="course-unit-detail-type"> Beginner</p></span>
-							<span></span>
+							<span>
+								<i class="far fa-clock"></i>
+								<p class="course-unit-detail-duration"> Duration:</p>
+								<p class="course-unit-detail-hours"> 10:00 hrs</p>
+							</span>
+							<span>
+								<i class="fas fa-chess"></i>
+								<p class="course-unit-detail-level">Level:</p>
+								<p class="course-unit-detail-type"> Beginner</p>
+							</span>
+							<span class="course-unit-rating">
+								<i class="fas fa-star"></i>
+								<p class="course-unit-detail-rating">Rating:</p>
+								<div class="small-active-star">
+                              		<div class="small-star star-five">
+                              	
+                              		</div>
+                           		</div>
+                           	</span>
 						</div>
-						<div class="course-unit-subtitle">Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum </div>
+						<div class="course-unit-subtitle">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</div>
+						<div class="course-unit-button">
+							<a href="courseinner.php" class="btn c-btn c-bg-blue">View Detail</a>
+						</div>
 					</div>
 				</div>
 				
