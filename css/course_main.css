@@ -505,6 +505,7 @@
 .bottom-grid-item img {
     height: 163px;
     width: 100%;
+    border-radius: 6px;
 }
 
 .bottom-grid-item {
