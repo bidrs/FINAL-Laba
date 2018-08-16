@@ -2673,6 +2673,7 @@ hr.events-unit-border{
 }
 .gallery-inner .gallery-inner-wrapper .img-wrapper a img{
     border-radius: 0px !important;
+    height: 100%;
 }
 .gallery-inner .gallery-inner-wrapper .img-wrapper i{
     font-size: 30px;
