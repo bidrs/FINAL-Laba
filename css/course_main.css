@@ -2609,6 +2609,83 @@ hr.events-unit-border{
 }
 
 
+
+/* ----------------------------- GALLERY PAGE -----------------------------------*/
+.gallery-album .gallery-wrapper .col-lg-3,
+.gallery-album .gallery-wrapper .col-md-3,
+.gallery-album .gallery-wrapper .col-sm-6,
+.gallery-album .gallery-wrapper .col-xs-12{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.gallery-album .gallery-unit{
+    position: relative;
+}
+.gallery-album .gallery-unit .gallery-unit-image {
+    height: 200px;
+   
+    overflow: hidden;
+}
+.gallery-album .gallery-unit .gallery-unit-image img{
+   height: inherit;
+}
+.gallery-album .gallery-unit .gallery-unit-image-description{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 20px;
+    background: rgba(0, 160, 220, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s, visibility .6s;
+
+}
+.gallery-unit:hover .gallery-unit-image-description{
+    visibility: visible;
+    opacity: 1;
+    padding: 20px 20px;
+}
+
+.gallery-album .gallery-unit .gallery-unit-image-description h5{
+    color: #fff;
+    line-height: 18px;
+}
+.gallery-album .gallery-unit .gallery-unit-image-description .gallery-unit-image-description-link{
+    padding-top: 40px;
+}
+.gallery-album .gallery-unit .gallery-unit-image-description i,
+.gallery-album .gallery-unit .gallery-unit-image-description p{
+    color: #fff;
+}
+.gallery-unit-image-description .gallery-unit-image-description-link p{
+    font-size: 12px;
+}
+
+/*...............Gallery-Inner...............*/
+.gallery-inner .gallery-inner-wrapper .img-overlay{
+    border-radius: 0px !important;
+}
+.gallery-inner .gallery-inner-wrapper .img-wrapper{
+    height: 175px;
+    overflow: hidden;
+}
+.gallery-inner .gallery-inner-wrapper .img-wrapper a img{
+    border-radius: 0px !important;
+}
+.gallery-inner .gallery-inner-wrapper .img-wrapper i{
+    font-size: 30px;
+}
+
+
+
+
+/* ----------------------------- GALLERY PAGE -----------------------------------*/
+
+
+
+
 /* ------------------------------ CONTACT PAGE ---------------------------------*/
 
 .contact {
