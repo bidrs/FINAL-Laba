@@ -2159,6 +2159,125 @@ hr.events-unit-border{
 /*------------------------------------- WHO WE ARE ENDS ------------------------------------ */
 
 
+/*------------------------------------- ABOUT US ------------------------------------------- */
+/*...........................About......................*/
+.about-introduction{
+    background: url('https://images.designtrends.com/wp-content/uploads/2016/03/01055620/Modern-Minimalist-Office-Design.jpeg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-introduction-color-overlay{
+    background: rgba(0,0,0,0.4);
+}
+.about-introduction-image{
+    height: 350px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.about-introduction-image img{
+    height: inherit;
+}
+.about-introduction-description-subtitle{
+    padding-top: 3px;
+}
+.about-introduction-description-text{
+    padding-top: 5px;
+}
+.about-omv{
+    margin-top: 50px;
+}
+.about-omv-tabs{
+    text-align: center;
+}
+.about-omv-tabs ul{
+    text-align: center !important;
+    display: inline-block;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 35px;
+}
+.about-omv-tabs .nav-tabs>li.active>a,
+.about-omv-tabs .nav-tabs>li.active>a:focus, 
+.about-omv-tabs .nav-tabs>li.active>a:hover{
+    background-color: #00a0dc !important;
+    color: #fff !important;
+}
+.about-omv-tabs .nav-tabs>li>a{
+    border: none !important;
+    border-radius: 0 !important;
+}
+.about-omv-image{
+    height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.about-omv-image img{
+    height: inherit;
+}
+.about-omv-title h4{
+    margin-top: 0px;
+}
+.about-omv-content .entry-objectives{
+    margin-top: 15px;
+}
+.about-what-we-do{
+    height: 550px;
+}
+.about-what-we-do-image{
+    background-image: url("https://www.copycatchic.com/wp-content/uploads/2017/04/Copycatchic-Minimalist-Office-Organization-PayPal-8-calendar.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.about-video{
+    height: 500px;
+    background: url('https://hips.hearstapps.com/housebeautiful.cdnds.net/18/09/1519837176-minimalist-office-big-declutter-challenge.jpg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /*padding: 200px 0;*/
+}
+.about-video .row{
+    background: rgba(0, 0, 0, 0.6);
+}
+.about-video-wrapper{
+    height: 500px;
+    /*transform: translateY(50%);*/
+    padding: 150px 0;
+}
+.about-video-play-button{
+    padding-top: 20px;
+}
+.about-video-play-button .bs-example span{
+    font-size: 18px;
+    color: #fff;
+}
+.btn-video{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 0px 0px 0px 6px;
+    font-size: 36px;
+    margin-top: 25px;
+}
+.about-video .modal-body{
+    padding: 0px !important;
+}
+@media (max-width: 1480px){
+    .modal-dialog {
+    width: 562px !important;
+}
+}
+.our-team.tutors-section{
+    background: #fff !important;
+    padding: 30px 0px 0px 0px !important;
+}
+/* ........................... ABOUT US ......................*/
+
+
+
+
 /*------------------------------------- COUNTER SECTION ------------------------------------ */
 .counter-section {
   background: url(../images/auditorium-benches-board-207691.jpg) fixed 50% 50%;
